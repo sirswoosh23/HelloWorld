@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Case M2m Projects Cases" max_length="40" name="x_63024_case_m2m_projects_cases" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_63024_case_table" type="reference"/>
+        <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

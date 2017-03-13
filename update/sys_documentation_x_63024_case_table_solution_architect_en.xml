@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="solution_architect" label="Solution Architect" language="en" table="x_63024_case_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>solution_architect</element>
+            <help/>
+            <hint/>
+            <label>Solution Architect</label>
+            <language>en</language>
+            <name>x_63024_case_table</name>
+            <plural>Solution Architects</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:12:51</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>d69549f64f813600c97627118110c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Solution Architect</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_x_63024_case_table_solution_architect_en</sys_update_name>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:12:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

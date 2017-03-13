@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="SalesForce Data" section_id="bd16c5b64f813600c97627118110c75d" sys_domain="global" table="x_63024_case_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c1e6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>csc_opportunity_id</element>
+            <position>1</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>45e6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity_offering_sfdc_id</element>
+            <position>2</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c5e6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_name</element>
+            <position>3</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>49e6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity_name</element>
+            <position>4</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c9e6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity_description_stage</element>
+            <position>5</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>4de6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>probability</element>
+            <position>6</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>cde6417a4f813600c97627118110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_reason</element>
+            <position>7</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>41e6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity_owner</element>
+            <position>8</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c1e6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_contract_value_converted_currency</element>
+            <position>9</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>45e6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_contract_value_converted</element>
+            <position>10</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c5e6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deal_scope</element>
+            <position>11</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>49e6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_stage_change_date</element>
+            <position>12</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c9e6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>4de6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opportunity_start_date</element>
+            <position>14</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>cde6417a4f813600c97627118110c72b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_modified_date</element>
+            <position>15</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>41e6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_date</element>
+            <position>16</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c1e6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>revenue_start_date</element>
+            <position>17</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>45e6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>revenue_term</element>
+            <position>18</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c5e6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offering_name</element>
+            <position>19</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>49e6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offering_sales_specialist</element>
+            <position>20</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c9e6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offering_date</element>
+            <position>21</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>4de6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offering_final_value_converted_currency</element>
+            <position>22</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>cde6417a4f813600c97627118110c72c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>offering_final_value_converted</element>
+            <position>23</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>41e6417a4f813600c97627118110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_country</element>
+            <position>24</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c1e6417a4f813600c97627118110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_term</element>
+            <position>25</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>45e6417a4f813600c97627118110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>26</position>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:18:30</sys_created_on>
+            <sys_id>c5e6417a4f813600c97627118110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="global" view="Default view">bd16c5b64f813600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:18:30</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SalesForce Data</caption>
+            <header>false</header>
+            <name>x_63024_case_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nick.minnich</sys_created_by>
+            <sys_created_on>2017-02-23 17:15:00</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd16c5b64f813600c97627118110c75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SalesForce Data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_ui_section_bd16c5b64f813600c97627118110c75d</sys_update_name>
+            <sys_updated_by>nick.minnich</sys_updated_by>
+            <sys_updated_on>2017-02-23 17:15:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

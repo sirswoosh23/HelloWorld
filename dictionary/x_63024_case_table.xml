@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Case" max_length="40" name="x_63024_case_table" sizeclass="12" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account Country" max_length="40" name="account_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Name" max_length="40" name="account_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Application or DB Backups for SAP Hana, MS SQL, Oracle w/ RMAN, DB2 using native" max_length="40" name="application_or_db_backups_for_sap_hana_ms_sql_oracle_w_rman_db2_using_native_bac" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Archive Equipment to Install" max_length="40" name="archive_equipment_to_install" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Archive Service" max_length="40" name="archive_service" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Closed Reason" max_length="40" name="closed_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Date" max_length="40" name="close_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Term" max_length="40" name="contract_term" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CSC Opportunity ID" max_length="40" name="csc_opportunity_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="CTA  (s)" max_length="40" name="cta_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Customer Data Erasure" max_length="40" name="customer_data_erasure" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Retention over 30 days" max_length="40" name="data_retention_over_30_days" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deal Scope" max_length="40" name="deal_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Decommission - Recover Infrastructure" max_length="40" name="decommission_recover_infrastructure" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Decommission Storage  Infrastructure" max_length="40" name="decommission_storage_infrastructure" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dedicated Environment - Archive" max_length="40" name="dedicated_environment_archive" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dedicated Environment - Store" max_length="40" name="dedicated_environment_store" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Develop a Wave based plan migration plan" max_length="40" name="develop_a_wave_based_plan_migration_plan" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Disk Retention" max_length="40" name="disk_retention" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Encryption at Rest" max_length="40" name="encryption_at_rest" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Enterprise Block Storage (s)" max_length="40" name="enterprise_block_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Estimate Request Date" max_length="40" name="estimate_request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expansion - Existing Recover Device" max_length="40" name="expansion_existing_recover_device" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expansion - Existing Storage Device with a new rack" max_length="40" name="expansion_existing_storage_device_with_a_new_rack" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expansion - Existing Storage Device with Shelf and/or disks" max_length="40" name="expansion_existing_storage_device_with_shelf_and_or_disks" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fiber Channel 16GB" max_length="40" name="fiber_channel_16gb" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fiber Channel 8GB" max_length="40" name="fiber_channel_8gb" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose BLOCK Storage (s)" max_length="40" name="general_purpose_block_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose Elastic Cloud Storage (s)" max_length="40" name="general_purpose_elastic_cloud_storage_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose FILE Storage  (s)" max_length="40" name="general_purpose_file_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose Flash Storage (s)" max_length="40" name="general_purpose_flash_storage_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose Hybrid Flash-Disk Storage  (s)" max_length="40" name="general_purpose_hybrid_flash_disk_storage_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose Object Storage  (s)" max_length="40" name="general_purpose_object_storage_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="HDS HCP" max_length="40" name="hds_hcp" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Remote Monitoring for Storage Devices" max_length="40" name="ibm_remote_monitoring_for_storage_devices" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Remote Monitoring of Archive Devices" max_length="40" name="ibm_remote_monitoring_of_archive_devices" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Remote Monitoring of Recover Devices" max_length="40" name="ibm_remote_monitoring_of_recover_devices" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Tape Backup Unit" max_length="40" name="ibm_tape_backup_unit" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Implementing the Migration Execution Plan" max_length="40" name="implementing_the_migration_execution_plan" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Industry Sector" max_length="40" name="industry_sector" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ITAR Account?" max_length="40" name="itar_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ITAR Site Rqmt?" max_length="40" name="itar_site_rqmt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Labor Source" max_length="40" name="labor_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Modified Date" max_length="40" name="last_modified_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Stage Change Date" max_length="40" name="last_stage_change_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Migration Planning - Backup" max_length="40" name="migration_planning_backup" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Migration - Storage" max_length="40" name="migration_storage" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="MS SharePoint" max_length="40" name="ms_sharepoint" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="NAS Backup non-Isilon - NDMP Accelerator" max_length="40" name="nas_backup_non_isilon_ndmp_accelerator" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="NAS Bandwidth - 10GB - What data Center(s)" max_length="40" name="nas_bandwidth_10gb_what_data_center_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="NAS Bandwidth - 1GB" max_length="40" name="nas_bandwidth_1gb" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Networker Servers for IBM Tape Backup Unit or to replace Net Backup" max_length="40" name="networker_servers_for_ibm_tape_backup_unit_or_to_replace_net_backup" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Network Switch Connectivity" max_length="40" name="network_switch_connectivity" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New LOGO" max_length="40" name="new_logo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Devices with Amount of Storage to ge decommissioned by site" max_length="40" name="number_of_devices_with_amount_of_storage_to_ge_decommissioned_by_site" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Obtaining data structure, connections and usage for migration sources" max_length="40" name="obtaining_data_structure_connections_and_usage_for_migration_sources" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Offering Date" max_length="40" name="offering_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Final Value (converted)" max_length="40" name="offering_final_value_converted" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Final Value (converted) Currency" max_length="40" name="offering_final_value_converted_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Name" max_length="40" name="offering_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Sales Specialist" max_length="40" name="offering_sales_specialist" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Description Stage" max_length="40" name="opportunity_description_stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Name" max_length="40" name="opportunity_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Offering SFDC Id" max_length="40" name="opportunity_offering_sfdc_id" type="string"/>
+        <element label="Opportunity Owner" max_length="40" name="opportunity_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Start Date" max_length="40" name="opportunity_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Status" max_length="40" name="opportunity_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PC/Laptop Backup" max_length="40" name="pc_laptop_backup" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Probability (%)" max_length="40" name="probability" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication Copy - Dependent" max_length="40" name="replication_copy_dependent" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication Copy - Independent" max_length="40" name="replication_copy_independent" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication of Customer Data to a Secondary Data Center - ASYNC" max_length="40" name="replication_of_customer_data_to_a_secondary_data_center_async" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication of Customer Data to a Secondary Data Center - SYNC" max_length="40" name="replication_of_customer_data_to_a_secondary_data_center_sync" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication of Customer Data utilizing an appliance (i.e.. RPA, etc.)" max_length="40" name="replication_of_customer_data_utilizing_an_appliance_i_e_rpa_etc" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication of Customer Data utilizing array-based tools" max_length="40" name="replication_of_customer_data_utilizing_array_based_tools" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication Setup - Existing Target" max_length="40" name="replication_setup_existing_target" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication Setup - New Target" max_length="40" name="replication_setup_new_target" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Revenue Start Date" max_length="40" name="revenue_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Revenue Term" max_length="40" name="revenue_term" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sales Force ID" max_length="40" name="sales_force_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Scaleout NAS  (s)" max_length="40" name="scaleout_nas_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Shared Environment - Archive" max_length="40" name="shared_environment_archive" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Shared/Leveraged Environment - Store" max_length="40" name="shared_leveraged_environment_store" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sites where equipment will be decommissioned" max_length="40" name="sites_where_equipment_will_be_decommissioned" type="string">
+            <choice/>
+        </element>
+        <element label="Solution Architect" max_length="32" name="solution_architect" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Subcategory" max_length="40" name="subcategory" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Swing Nodes" max_length="40" name="swing_nodes" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tape Encryption" max_length="40" name="tape_encryption" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Total Contract Value (converted)" max_length="40" name="total_contract_value_converted" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Contract Value (converted) Currency" max_length="40" name="total_contract_value_converted_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="WAN Bandwidth - Client" max_length="40" name="wan_bandwidth_client" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="WAN Bandwidth - Client - What data Center(s)" max_length="40" name="wan_bandwidth_client_what_data_center_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="WAN Bandwidth - CSC" max_length="40" name="wan_bandwidth_csc" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="WAN Bandwidth - CSC - What data Center(s)" max_length="40" name="wan_bandwidth_csc_what_data_center_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="WBS" max_length="40" name="wbs" type="string"/>
+    </element>
+</database>

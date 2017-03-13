@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Case</name>
+        <order/>
+        <roles>x_63024_case.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>crob</sys_created_by>
+        <sys_created_on>2017-02-07 20:27:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfc8db214f74b600c97627118110c77b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_app_application_dfc8db214f74b600c97627118110c77b</sys_update_name>
+        <sys_updated_by>crob</sys_updated_by>
+        <sys_updated_on>2017-02-07 20:27:54</sys_updated_on>
+        <title>Case</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

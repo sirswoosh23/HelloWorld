@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Case task" max_length="40" name="x_63024_case_case_task" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_63024_case_table" type="reference"/>
+    </element>
+</database>

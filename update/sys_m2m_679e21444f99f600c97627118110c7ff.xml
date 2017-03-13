@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_63024_case_table</from_table>
+        <m2m_from_field>case</m2m_from_field>
+        <m2m_from_label>Projects</m2m_from_label>
+        <m2m_table>x_63024_case_m2m_projects_cases</m2m_table>
+        <m2m_to_field>project</m2m_to_field>
+        <m2m_to_label>Cases</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>frank.kuligowski</sys_created_by>
+        <sys_created_on>2017-02-27 17:25:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>679e21444f99f600c97627118110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_63024_case_m2m_projects_cases</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_m2m_679e21444f99f600c97627118110c7ff</sys_update_name>
+        <sys_updated_by>frank.kuligowski</sys_updated_by>
+        <sys_updated_on>2017-02-27 17:25:46</sys_updated_on>
+        <to_table>pm_project</to_table>
+    </sys_m2m>
+</record_update>
