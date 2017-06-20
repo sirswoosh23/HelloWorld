@@ -4,92 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0864b1284f732200c97627118110c764</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2016-12-16 17:32:24</sys_created_on>
-            <sys_id>8864b1284f732200c97627118110c764</sys_id>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>99ed46f1db5ffe00ba5efc2ebf96196c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2016-12-16 17:32:24</sys_updated_on>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0864b1284f732200c97627118110c764</list_id>
+            <element>active</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2016-12-16 17:32:24</sys_created_on>
-            <sys_id>0c64b1284f732200c97627118110c764</sys_id>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>1ded46f1db5ffe00ba5efc2ebf96196c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2016-12-16 17:32:24</sys_updated_on>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0864b1284f732200c97627118110c764</list_id>
+            <element>activity_due</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2016-12-16 17:32:24</sys_created_on>
-            <sys_id>8c64b1284f732200c97627118110c764</sys_id>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>9ded46f1db5ffe00ba5efc2ebf96196c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2016-12-16 17:32:24</sys_updated_on>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0864b1284f732200c97627118110c764</list_id>
+            <element>additional_assignee_list</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2016-12-16 17:32:24</sys_created_on>
-            <sys_id>0064b1284f732200c97627118110c765</sys_id>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>11ed46f1db5ffe00ba5efc2ebf96196d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2016-12-16 17:32:24</sys_updated_on>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0864b1284f732200c97627118110c764</list_id>
+            <element>approval</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2016-12-16 17:32:24</sys_created_on>
-            <sys_id>8064b1284f732200c97627118110c765</sys_id>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>91ed46f1db5ffe00ba5efc2ebf96196d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2016-12-16 17:32:24</sys_updated_on>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0864b1284f732200c97627118110c764</list_id>
+            <element>approval_history</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2016-12-16 17:32:24</sys_created_on>
-            <sys_id>0464b1284f732200c97627118110c765</sys_id>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>15ed46f1db5ffe00ba5efc2ebf96196d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2016-12-16 17:32:24</sys_updated_on>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_set</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>95ed46f1db5ffe00ba5efc2ebf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>19ed46f1db5ffe00ba5efc2ebf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>99ed46f1db5ffe00ba5efc2ebf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_duration</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">95ed46f1db5ffe00ba5efc2ebf96196c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>ryan.palkovic@snc</sys_created_by>
+            <sys_created_on>2017-06-12 16:16:04</sys_created_on>
+            <sys_id>1ded46f1db5ffe00ba5efc2ebf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ryan.palkovic@snc</sys_updated_by>
+            <sys_updated_on>2017-06-12 16:16:04</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -104,7 +164,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>crob</sys_created_by>
             <sys_created_on>2017-02-10 17:09:11</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f918c6664ff87200c97627118110c7d6</sys_id>
@@ -117,7 +177,7 @@
             <sys_update_name>sys_ui_list_task_null</sys_update_name>
             <sys_updated_by>crob</sys_updated_by>
             <sys_updated_on>2017-02-10 17:09:11</sys_updated_on>
-            <sys_user display_value="Cody Almighty">f572d1c04f7c7200c97627118110c74e</sys_user>
+            <sys_user display_value="">f572d1c04f7c7200c97627118110c74e</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

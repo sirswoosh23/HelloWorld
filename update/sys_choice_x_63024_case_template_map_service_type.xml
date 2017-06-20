@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service_type" table="x_63024_case_template_map" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storage</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-21 20:57:28</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>7b32bbcbdbe93600a3c87566bf96191a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:14</sys_updated_on>
+            <value>store</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recover</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-21 20:57:48</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>cf527bcbdbe93600a3c87566bf9619fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:14</sys_updated_on>
+            <value>recover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Migration</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>2</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-21 20:58:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>b7627f8bdbe93600a3c87566bf96197c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:04</sys_updated_on>
+            <value>migrate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Archive</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>3</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-21 20:58:33</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>e3723bcbdbe93600a3c87566bf961914</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:14</sys_updated_on>
+            <value>archive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expansion/Decommission</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>4</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-05 21:55:12</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>4a6fc9c0dbc2fa00e526f776bf9619ce</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:14</sys_updated_on>
+            <value>expand</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service_type</element>
+            <name>x_63024_case_template_map</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-21 20:57:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8a523bcbdbe93600a3c87566bf961912</sys_id>
+            <sys_mod_count>13</sys_mod_count>
+            <sys_name>service_type</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_choice_x_63024_case_template_map_service_type</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

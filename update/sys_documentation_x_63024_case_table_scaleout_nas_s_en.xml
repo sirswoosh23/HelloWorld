@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nick.minnich</sys_created_by>
             <sys_created_on>2017-02-23 15:07:33</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>fee824be4f013600c97627118110c7f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Scaleout NAS  (s)</sys_name>

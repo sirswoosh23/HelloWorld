@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Case fields as RO</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	try{
+		var names = [];
+		for(var i = 0;i<g_form.elements.length;i++){
+			var el = g_form.elements[i];
+			
+			//Add Case fields to names array
+			if(el.fieldName.indexOf('top_task.x') !== -1){
+				var name = el.fieldName.toString();
+				var index = name.indexOf('.');
+				if(name.indexOf('.', index+1) !== -1){
+					names.push(name);
+				}
+			}
+		}
+		
+		
+		//Loop through field names and set them as RO.
+		for(var i in names){
+			if(typeof(names[i]) == 'string'){
+				g_form.setReadonly(names[i], true);
+				console.log(names[i]);
+			}
+		}
+	} catch(er){
+		
+	}
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-03-29 21:17:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>d303c57ddb3df600a3c87566bf9619a1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Case fields as RO</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_client_d303c57ddb3df600a3c87566bf9619a1</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-14 22:19:58</sys_updated_on>
+        <table>pm_project_task</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

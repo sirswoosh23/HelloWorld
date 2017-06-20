@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_63024_case_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Case Volume records</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// This is no longer needed. This script would auto-create Case Volume records for a Case.
+	// But CSC has decided to go in another direction (at least for now).
+	
+	// Create Case Volume records for this Case, unless it already has them.
+	var grV = new GlideRecord('x_63024_case_case_volume');
+	grV.addQuery('case', current.getUniqueValue());
+	grV.query();
+	if (!grV.next()) {
+		createRecs(current);
+	}
+})(current, previous);
+
+// Case Volume records are meant to be a static set of records for each Case, where
+// the user can enter in volume projections for each of several types of storage.
+// This process copies records that are marked as Template=Yes in the Case Volume
+// and makes a new copy of these records for the current Case record.
+function createRecs(current) {
+	var grI = new GlideRecord('x_63024_case_case_volume');
+	grI.addQuery('template', 'true');
+	grI.query();
+	var flds = getFields();
+	var grO = new GlideRecord('x_63024_case_case_volume');
+	while (grI.next()) {
+		grO.initialize();
+		for (x=0; x<flds.length; x++) {
+			grO.setValue(flds[x], grI.getValue(flds[x]));
+		}
+		grO.setValue('case', current.sys_id);
+		grO.insert();
+	}
+}
+
+// List of fields to copy from the Template records to the new Case records
+function getFields() {
+	var rtn = [];
+	rtn.push('encryption');
+	rtn.push('iops');
+	rtn.push('lms_class');
+	rtn.push('migrate');
+	rtn.push('number');
+	rtn.push('order');
+	rtn.push('replication_gb');
+	rtn.push('replication_included');
+	rtn.push('service_class');
+	rtn.push('service_type');
+	rtn.push('volume_initial');
+	rtn.push('volume_y2_change');
+	rtn.push('volume_y3_change');
+	rtn.push('volume_y4_change');
+	rtn.push('volume_y5_change');
+	return rtn;
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-03-23 21:51:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd815e3fdbed7600e526f776bf9619ca</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Create Case Volume records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_cd815e3fdbed7600e526f776bf9619ca</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-04-03 22:57:26</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

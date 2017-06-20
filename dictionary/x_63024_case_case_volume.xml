@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Case Volume Projection" max_length="40" name="x_63024_case_case_volume" sizeclass="9540" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_63024_case_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="service_type" choice_table="x_63024_case_template_map" label="Case's Service Type" max_length="40" name="case_service_type" type="string">
+            <choice/>
+        </element>
+        <element label="Data Center" max_length="32" name="data_center" reference="x_63024_case_data_center" type="reference"/>
+        <element label="Encryption is Included" max_length="100" name="encryption" type="string"/>
+        <element label="From Template" max_length="32" name="from_template" reference="x_63024_case_case_volume" type="reference"/>
+        <element label="IOPS per 10TB / Latency" max_length="100" name="iops" type="string"/>
+        <element label="LSM Class" max_length="100" name="lms_class" type="string"/>
+        <element choice="1" label="Migrate" max_length="40" name="migrate" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Replication GB" max_length="100" name="replication_gb" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication Included" max_length="40" name="replication_included" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="service" choice_table="x_63024_case_template_map" dependent="case_service_type" dependent_on_field="case_service_type" label="Case's Service" max_length="40" name="service" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Service Class" max_length="100" name="service_class" type="string"/>
+        <element display="true" label="Service Type" max_length="100" name="service_type" type="string"/>
+        <element label="Template" max_length="40" name="template" type="boolean"/>
+        <element label="Volume Initial" max_length="40" name="volume_initial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Volume Y10 Change" max_length="40" name="volume_y10_change" type="string"/>
+        <element label="Volume Y2 Change" max_length="40" name="volume_y2_change" type="string"/>
+        <element label="Volume Y3 Change" max_length="40" name="volume_y3_change" type="string"/>
+        <element label="Volume Y4 Change" max_length="40" name="volume_y4_change" type="string"/>
+        <element label="Volume Y5 Change" max_length="40" name="volume_y5_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Volume Y6 Change" max_length="40" name="volume_y6_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Volume Y7 Change" max_length="40" name="volume_y7_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Volume Y8 Change" max_length="40" name="volume_y8_change" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Volume Y9 Change" max_length="40" name="volume_y9_change" type="string"/>
+        <index name="index">
+            <element name="from_template"/>
+        </index>
+        <index name="index2">
+            <element name="data_center"/>
+        </index>
+        <index name="index3">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

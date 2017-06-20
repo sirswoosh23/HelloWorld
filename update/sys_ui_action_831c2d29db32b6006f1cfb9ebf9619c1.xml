@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>create_project_expand</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition> current.canWrite() &amp;&amp; new CaseVolume().isReady(current)</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Create Tasks for Estimation</name>
+        <onclick>createTasks()</onclick>
+        <order>95</order>
+        <script><![CDATA[// Create Case Tasks to assign work for this Case, if they
+// haven't been created already.
+var task_list = getTaskInfo();
+createTasks(task_list, current);
+action.setRedirectURL(current);
+
+// Populate an array of objects, one for each Task that we want to create
+function getTaskInfo() {
+	var rtn = [];
+	// Assignment Groups
+	var groups = ['SODT-COSTEST','SODT-GMO','SODT-OSE'];
+	// Assigned To's
+	var assignees = ['','',''];
+	// Short Description, and also used for long Description
+	var titles = [];
+	titles.push('Create Commissioning Cost Estimate');
+	titles.push('Create Migration Execution Estimate');
+	titles.push('Create Monthly Service Estimate');
+	// Create only when Oppty is ready (true), or just go (false)
+	var when_dones = [false, false, false];
+	// Create an object for each Task
+	for (i=0; i<groups.length;i++) {
+		var obj = {};
+		obj.group = groups[i];
+		obj.assigned_to = assignees[i];
+		obj.short_desc = titles[i];
+		obj.desc = 'Please, ' + titles[i] + ' for the parent Case ';
+		obj.desc += 'and update the Case details accordingly.';
+		obj.when_done = when_dones[i];
+		rtn.push(obj);
+	}
+	return rtn;
+}
+
+// Create the Tasks, using the array of objects we populated in getTaskInfo
+// Some Tasks have to wait until the Probability >= 100% before they're created.
+function createTasks(task_list, current) {
+	for (x=0; x<task_list.length; x++) {
+		if (task_list[x].when_done) {
+			var stage = parseInt(current.probability);
+			if (stage.indexOf('06') >= 0) {
+				createTask(task_list[x], current);
+			}
+		} else {
+			createTask(task_list[x], current);
+		}
+	}
+}
+
+// Create a Task, using the an objects we populated in getTaskInfo,
+// but only if there already isn't one of those Tasks with that short_desc
+// for this Case
+function createTask(task_info, current) {
+	var grT = new GlideRecord('x_63024_case_case_task');
+	grT.addQuery('short_description', task_info.short_desc);
+	grT.addQuery('case', current.getUniqueValue());
+	grT.query();
+	if (!grT.next()) {
+		grT.initialize();
+		grT.setValue('case',current.getUniqueValue());
+		grT.short_description = task_info.short_desc;
+		grT.assignment_group.setDisplayValue(task_info.group);
+		grT.assigned_to.setDisplayValue(task_info.assigned_to);
+		grT.description = task_info.desc;
+		grT.insert();
+	}
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-05-17 22:38:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>831c2d29db32b6006f1cfb9ebf9619c1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Create Tasks for Estimation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_ui_action_831c2d29db32b6006f1cfb9ebf9619c1</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-15 00:07:09</sys_updated_on>
+        <table>x_63024_case_table</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

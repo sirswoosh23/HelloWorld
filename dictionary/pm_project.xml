@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="hasLabels=true" audit="true" extends="planned_task" label="Projeto" max_length="40" name="pm_project" sizeclass="73" type="collection">
+        <element active="false" label="Planned task Case" max_length="32" name="x_63024_case_case" reference="x_63024_case_table" type="reference"/>
+    </element>
+</database>

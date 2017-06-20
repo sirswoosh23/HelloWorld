@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_user_group" relationship="" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" table="sys_user_grmember" version="2" view="">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_user_grmember</name>
+            <parent>sys_user_group</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-05 20:37:26</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>fe9d300cdb82fa00e526f776bf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user_grmember</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_ui_list_sys_user_grmember_sys_user_group_null_c01813fb6fb82100c5afed5dbb3ee479</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-04-05 20:37:26</sys_updated_on>
+            <sys_user display_value="Frank Kuligowski">bc00959edb117a003f93fdabbf961985</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

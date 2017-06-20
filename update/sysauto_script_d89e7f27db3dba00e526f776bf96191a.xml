@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>FK Junk Case</name>
+        <run_as display_value="Frank Kuligowski">bc00959edb117a003f93fdabbf961985</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-04-04 21:23:32</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var grC = new GlideRecord('x_63024_case_table');
+grC.addActiveQuery();
+grC.query();
+gs.info('rows=' + grC.getRowCount());
+while (grC.next()) {
+	grC.deal_category = getDealCategory(grC.sf_total_contract_value);
+	grC.update();
+	//gs.info('tcv=' + grC.sf_total_contract_value + ',categ=' + getDealCategory(grC.sf_total_contract_value));
+}
+gs.info('done');
+
+function getDealCategory(tcv) {
+	// Deal Category:
+	// < $20 mil, Category = C
+	// < $149 mil, Category = B
+	// >= $150 mil, Category = A
+	// Zero, negative, or NaN, Category = <blank>
+	rtn = '';
+	var num = parseFloat(tcv);
+	if (isNaN(num)) {
+		rtn = '';
+	} else if (num <= 0) {
+		rtn = '';
+	} else if (num < 250000) {
+		rtn = 'E';
+	} else if (num <= 5000000) {
+		rtn = 'D';
+	} else if (num <= 20000000) {
+		rtn = 'C';
+	} else if (num < 100000000) {
+		rtn = 'B';
+	} else {
+		rtn = 'A';
+	}
+	return rtn;
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-04-04 21:24:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d89e7f27db3dba00e526f776bf96191a</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>FK Junk Case</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sysauto_script_d89e7f27db3dba00e526f776bf96191a</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-04-19 21:56:23</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

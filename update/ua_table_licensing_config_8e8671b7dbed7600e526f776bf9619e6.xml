@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <name>x_63024_case_case_volume</name>
+        <owner_condition table="x_63024_case_case_volume">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </owner_condition>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-03-23 19:51:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8e8671b7dbed7600e526f776bf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_63024_case_case_volume</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_8e8671b7dbed7600e526f776bf9619e6</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-03-23 19:51:58</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

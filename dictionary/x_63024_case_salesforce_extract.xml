@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="SalesForce Extract" max_length="40" name="x_63024_case_salesforce_extract" type="collection">
+        <element attributes="import_attribute_name=A,edge_encryption_enabled=true" label="A" max_length="40" name="u_a" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Country" max_length="40" name="u_account_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Name" max_length="40" name="u_account_name" type="string"/>
+        <element attributes="import_attribute_name=B,edge_encryption_enabled=true" label="B" max_length="40" name="u_b" type="string"/>
+        <element attributes="import_attribute_name=C,edge_encryption_enabled=true" label="C" max_length="40" name="u_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed Reason" max_length="40" name="u_closed_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Date" max_length="40" name="u_close_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments from FollowUps" max_length="40" name="u_comments_from_followups" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Start Date" max_length="40" name="u_contract_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Created Date" max_length="40" name="u_created_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CSC Opportunity ID" max_length="40" name="u_csc_opportunity_id" type="string"/>
+        <element attributes="import_attribute_name=D,edge_encryption_enabled=true" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date additional revenue started (If not provided, Revenue Start date used)" max_length="40" name="u_date_additio_art_date_used_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Implementation Project started&#10;(If blank in project workbook, date passed t" max_length="40" name="u_date_impleme_assed_to_da_i_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Days taken for Implementation Project &#10;(calculated end minus start)" max_length="40" name="u_days_taken_f_d_minus_start_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DA&amp;I Comments" max_length="40" name="u_da_i_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DA&amp;I PM in master project" max_length="40" name="u_da_i_pm_in_master_project" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Deal Scope" max_length="40" name="u_deal_scope" type="string"/>
+        <element attributes="import_attribute_name=E,edge_encryption_enabled=true" label="E" max_length="40" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extract Date" max_length="40" name="u_extract_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Extract Notes" max_length="40" name="u_extract_notes" type="string"/>
+        <element attributes="import_attribute_name=F,edge_encryption_enabled=true" label="F" max_length="40" name="u_f" type="string"/>
+        <element attributes="import_attribute_name=G,edge_encryption_enabled=true" label="G" max_length="40" name="u_g" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Gate" max_length="40" name="u_gate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Handed over to DA&amp;I Team (date)" max_length="40" name="u_handed_over___i_team__date_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="HPE Opportunity Id" max_length="40" name="u_hpe_opportunity_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Implementation Component?&#10;(Yes, No or TBC)" max_length="40" name="u_implementati_es__no_or_tbc_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿CSC Opportunity ID" max_length="40" name="u_ï__csc_opportunity_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿HPE Opportunity Id" max_length="40" name="u_ï__hpe_opportunity_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key Industry" max_length="40" name="u_key_industry" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Modified Date" max_length="40" name="u_last_modified_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Sales Stage Change Date" max_length="40" name="u_last_sales_stage_change_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Stage Change Date" max_length="40" name="u_last_stage_change_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Master Project Workbook Completed Date" max_length="40" name="u_master_proje_completed_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Master Project Workbook Target/Revised End date &#10;(8 weeks from start date if not" max_length="40" name="u_master_proje_not_specified_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MUSA reference" max_length="40" name="u_musa_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Date" max_length="40" name="u_offering_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Final Value (converted) Currency" max_length="40" name="u_offering_fin_rted__currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Final Value (converted)" max_length="40" name="u_offering_fin_ue__converted_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Name" max_length="40" name="u_offering_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Sales Specialist" max_length="40" name="u_offering_sales_specialist" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OFV monthly (calculated OFV/Term in months)" max_length="40" name="u_ofv_monthly__erm_in_months_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Description" max_length="4000" name="u_opportunity_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity ID" max_length="40" name="u_opportunity_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Name" max_length="1000" name="u_opportunity_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Offering SFDC Id" max_length="40" name="u_opportunity_offering_sfdc_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Owner" max_length="40" name="u_opportunity_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Start Date" max_length="40" name="u_opportunity_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Type" max_length="40" name="u_opportunity_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Probability (%)" max_length="40" name="u_probability____" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Date" max_length="40" name="u_product_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Name" max_length="40" name="u_product_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Status" max_length="40" name="u_project_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Revenue Start Date" max_length="40" name="u_revenue_start_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Revenue Term" max_length="40" name="u_revenue_term" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sales Stage" max_length="40" name="u_sales_stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stage" max_length="40" name="u_stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Contract Length In Months" max_length="40" name="u_total_contra_ngth_in_months" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Contract Value (converted) Currency" max_length="40" name="u_total_contra_rted__currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Contract Value (converted)" max_length="40" name="u_total_contra_ue__converted_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Opportunity Value (converted) Currency" max_length="40" name="u_total_opport_rted__currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Opportunity Value (converted)" max_length="40" name="u_total_opport_ue__converted_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit Price (converted)" max_length="40" name="u_unit_price__converted_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit Price (converted) Currency" max_length="40" name="u_unit_price___rted__currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - Complete date (74)" max_length="40" name="u_vlookup___complete_date__74_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - In Completed tab (1)" max_length="40" name="u_vlookup___in_pleted_tab__1_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - In New Bus Trans (1)" max_length="40" name="u_vlookup___in__bus_trans__1_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - MUSA (76)" max_length="40" name="u_vlookup___musa__76_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - PM (4)" max_length="40" name="u_vlookup___pm__4_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - Project Status (58)" max_length="40" name="u_vlookup___pr_ct_status__58_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - revised end date (73)" max_length="40" name="u_vlookup___re__end_date__73_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - Start Date (67)" max_length="40" name="u_vlookup___start_date__67_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="vlookup - target End date (72)" max_length="40" name="u_vlookup___ta__end_date__72_" type="string"/>
+    </element>
+</database>

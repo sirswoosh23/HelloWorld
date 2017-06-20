@@ -3,14 +3,13 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="data_retention_over_30_days" table="x_63024_case_table">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Data Retention over 30 days</column_label>
+        <column_label>Extended Online Retention up to 370 days</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -48,16 +47,16 @@
         <sys_created_by>nick.minnich</sys_created_by>
         <sys_created_on>2017-02-23 16:39:34</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>76fd30724f813600c97627118110c73f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Data Retention over 30 days</sys_name>
+        <sys_id>432756e4dba1b200e526f776bf9619d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Extended Online Retention up to 370 days</sys_name>
         <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
         <sys_update_name>sys_dictionary_x_63024_case_table_data_retention_over_30_days</sys_update_name>
-        <sys_updated_by>nick.minnich</sys_updated_by>
-        <sys_updated_on>2017-02-23 16:39:34</sys_updated_on>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-02 20:47:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

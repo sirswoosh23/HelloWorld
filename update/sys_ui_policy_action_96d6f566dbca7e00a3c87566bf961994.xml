@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>offering_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-04-13 19:12:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>96d6f566dbca7e00a3c87566bf961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>offering_name</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_96d6f566dbca7e00a3c87566bf961994</sys_update_name>
+        <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-04-13 19:12:20</sys_updated_on>
+        <table>x_63024_case_table</table>
+        <ui_policy display_value="ALWAYS TRUE">e8b2a3714f70f600c97627118110c759</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

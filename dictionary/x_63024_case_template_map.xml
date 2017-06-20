@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Service Template Map" max_length="40" name="x_63024_case_template_map" type="collection">
+        <element choice="1" label="Data Center" mandatory="true" max_length="40" name="dc" type="choice">
+            <choice>
+                <element label="DXC" sequence="10" value="DXC"/>
+                <element label="Customer" sequence="20" value="Customer"/>
+                <element label="Any" sequence="30" value="Any"/>
+            </choice>
+        </element>
+        <element choice="1" label="Disposition" mandatory="true" max_length="40" name="disposition" type="choice">
+            <choice>
+                <element label="New (Commission)" sequence="10" value="New"/>
+                <element label="Modify (Expansion)" sequence="20" value="Expansion"/>
+                <element label="Remove (Decommission)" sequence="30" value="Decommission"/>
+                <element label="Any" sequence="40" value="Any"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element default="100" label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="1" label="Procurement Type" mandatory="true" max_length="40" name="procurement_type" type="choice">
+            <choice>
+                <element label="Utility" sequence="0" value="Utility"/>
+                <element label="CapEx" sequence="1" value="CapEx"/>
+                <element label="Both" sequence="2" value="Both"/>
+                <element label="N/A" sequence="3" value="N/A"/>
+                <element label="Any" sequence="4" value="Any"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="service_type" dependent_on_field="service_type" label="Service" mandatory="true" max_length="40" name="service" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="store" label="Array Based Replication" sequence="0" value="replication_customer_data_array_tools"/>
+                <element dependent_value="recover" label="Backup to Tape" sequence="0" value="ibm_tape_backup_unit"/>
+                <element dependent_value="expand" label="Data Erasure Required" sequence="0" value="data_erasure"/>
+                <element dependent_value="store" label="Appliance Based Replication" sequence="1" value="replication_customer_data_appliance"/>
+                <element dependent_value="expand" label="Are Switches part of Decommmission" sequence="1" value="switches_decom"/>
+                <element dependent_value="recover" label="Data Erasure" sequence="1" value="customer_data_erasure"/>
+                <element dependent_value="store" label="Cloud Tiering Appliance (s)" sequence="2" value="cta_s"/>
+                <element dependent_value="recover" label="Encryption at Rest" sequence="2" value="encryption_at_rest"/>
+                <element dependent_value="store" label="Encryption at Rest" sequence="3" value="encryption_at_rest"/>
+                <element dependent_value="recover" label="Extended Online Retention up to 370 days" sequence="3" value="data_retention_over_30_days"/>
+                <element dependent_value="store" label="Elastic Cloud Storage (s)" sequence="4" value="general_purpose_elastic_cloud_storage_s"/>
+                <element dependent_value="recover" label="IBM Remote Monitoring of Recover" sequence="4" value="ibm_remote_monitoring_recover_device"/>
+                <element dependent_value="store" label="Enterprise Block Storage (s)" sequence="5" value="enterprise_block_storage_s"/>
+                <element dependent_value="recover" label="MS SharePoint" sequence="5" value="ms_sharepoint"/>
+                <element dependent_value="store" label="Fiber Channel 8GB" sequence="6" value="fiber_channel_8gb"/>
+                <element dependent_value="recover" label="NAS Backup" sequence="6" value="nas_backup_non_isilon_ndmp_accelerator"/>
+                <element dependent_value="store" label="Fiber Channel 16GB" sequence="7" value="fiber_channel_16gb"/>
+                <element dependent_value="recover" label="NAS File Data Protection via NDMP" sequence="7" value="nas_file_data_protection_via_ndmp"/>
+                <element dependent_value="store" label="File Data Deduplication" sequence="8" value="file_data_deduplication"/>
+                <element dependent_value="recover" label="PC/Laptop Backup" sequence="8" value="pc_laptop_backup"/>
+                <element dependent_value="store" label="General Purpose All Flash Storage" sequence="9" value="general_purpose_flash_storage_s"/>
+                <element dependent_value="recover" label="Recover WAN Bandwidth - Client" sequence="9" value="wan_bandwidth_client"/>
+                <element dependent_value="store" label="General Purpose BLOCK Storage (s)" sequence="10" value="general_purpose_block_storage_s"/>
+                <element dependent_value="recover" label="Recover WAN Bandwidth - DXC" sequence="10" value="wan_bandwidth_csc"/>
+                <element dependent_value="store" label="General Purpose FILE Storage (s)" sequence="11" value="general_purpose_file_storage_s"/>
+                <element dependent_value="recover" label="Recover Managed Service" sequence="11" value="recover_managed_service"/>
+                <element dependent_value="store" label="General Purpose Hybrid Block Storage" sequence="12" value="general_purpose_hybrid_flash"/>
+                <element dependent_value="recover" label="Replication Setup - Existing Target" sequence="12" value="replication_setup_existing_target"/>
+                <element dependent_value="store" label="IBM Remote Monitoring for Storage" sequence="13" value="ibm_remote_monitoring_storage_dev"/>
+                <element dependent_value="recover" label="Replication Setup - New Target" sequence="13" value="replication_setup_new_target"/>
+                <element dependent_value="store" label="NAS Bandwidth - 10GB" sequence="14" value="nas_bandwidth_10gb_what_data_center_s"/>
+                <element dependent_value="recover" label="Standard Recover" sequence="14" value="standard_recover"/>
+                <element dependent_value="store" label="NAS Bandwidth - 1GB" sequence="15" value="nas_bandwidth_1gb"/>
+                <element dependent_value="recover" label="Supply of Media Tape" sequence="15" value="supply_of_media_tape"/>
+                <element dependent_value="store" label="Object Storage (s)" sequence="16" value="general_purpose_object_storage_s"/>
+                <element dependent_value="recover" label="Tape Encryption" sequence="16" value="tape_encryption"/>
+                <element dependent_value="store" label="In-System Replication" sequence="17" value="replication_copy_dependent"/>
+                <element dependent_value="recover" label="Tape Management" sequence="17" value="tape_management"/>
+                <element dependent_value="store" label="Replication Infrastructure" sequence="18" value="replication_infrastructure"/>
+                <element dependent_value="store" label="Replication to Secondary Data Center" sequence="19" value="replication_customer_secondary_sync"/>
+                <element dependent_value="store" label="Scaleout NAS (s)" sequence="20" value="scaleout_nas_s"/>
+                <element dependent_value="archive" label="Archive Managed Service" sequence="21" value="archive_managed_service"/>
+                <element dependent_value="store" label="Storage Managed Service" sequence="21" value="storage_managed_service"/>
+                <element dependent_value="store" label="Storage WAN Bandwidth - Client" sequence="22" value="wan_bandwidth_client_what_data_center_s"/>
+                <element dependent_value="store" label="Storage WAN Bandwidth - DXC" sequence="23" value="wan_bandwidth_csc_what_data_center_s"/>
+                <element dependent_value="migrate" label="Backup Migration" sequence="390" value="develop_wave_based_migration_plan"/>
+                <element dependent_value="migrate" label="Storage Migration" sequence="400" value="obtaining_data_structure_connection"/>
+                <element dependent_value="archive" label="Archive Compliant" sequence="410" value="archive_equipment_to_install"/>
+                <element dependent_value="archive" label="Archive Intermediate" sequence="420" value="sites_where_equipment_decommissioned"/>
+                <element dependent_value="archive" label="IBM Remote Monitoring of Archive" sequence="440" value="ibm_remote_monitoring_of_archive_devices"/>
+            </choice>
+        </element>
+        <element choice="1" label="Service Type" mandatory="true" max_length="40" name="service_type" type="choice">
+            <choice>
+                <element label="Storage" sequence="0" value="store"/>
+                <element label="Recover" sequence="1" value="recover"/>
+                <element label="Migration" sequence="2" value="migrate"/>
+                <element label="Archive" sequence="3" value="archive"/>
+                <element label="Expansion/Decommission" sequence="4" value="expand"/>
+            </choice>
+        </element>
+        <element choice="1" label="Dedicated/Leveraged" mandatory="true" max_length="40" name="shared" type="choice">
+            <choice>
+                <element label="Shared" sequence="10" value="Leveraged"/>
+                <element label="Dedicated" sequence="20" value="Dedicated"/>
+                <element label="Any" sequence="30" value="Any"/>
+            </choice>
+        </element>
+        <element label="Template" mandatory="true" max_length="32" name="template" reference="project_template" type="reference"/>
+        <index name="index">
+            <element name="template"/>
+        </index>
+    </element>
+</database>

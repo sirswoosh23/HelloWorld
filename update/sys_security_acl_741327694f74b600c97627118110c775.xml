@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>crob</sys_created_by>
         <sys_created_on>2017-02-07 21:12:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>741327694f74b600c97627118110c775</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_63024_case_case_task</sys_name>

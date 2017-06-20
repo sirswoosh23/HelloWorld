@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="fcf42a8edbfab6006f1cfb9ebf961957" sys_domain="09ff3d105f231000b12e3572f2b4775d" table="x_63024_case_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>05f4e602db3eb6006f1cfb9ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">b0f42a8edbfab6006f1cfb9ebf961959</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">f20c5d35db29f200e526f776bf96193c</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>b0f42a8edbfab6006f1cfb9ebf961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">f20c5d35db29f200e526f776bf96193c</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>34f42a8edbfab6006f1cfb9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">38b87e0bdba93600a3c87566bf961937</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>85f4e602db3eb6006f1cfb9ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">34f42a8edbfab6006f1cfb9ebf961958</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">38b87e0bdba93600a3c87566bf961937</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>09f4e602db3eb6006f1cfb9ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">30f42a8edbfab6006f1cfb9ebf961959</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Select Your Service" display_value="Select Your Service" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">78f42a8edbfab6006f1cfb9ebf961957</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>30f42a8edbfab6006f1cfb9ebf961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Select Your Service" display_value="Select Your Service" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">78f42a8edbfab6006f1cfb9ebf961957</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>89f4e602db3eb6006f1cfb9ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">bcf42a8edbfab6006f1cfb9ebf961958</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">2fc572c7dba93600a3c87566bf961985</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>bcf42a8edbfab6006f1cfb9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="SalesForce Data" display_value="SalesForce Data" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">2fc572c7dba93600a3c87566bf961985</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>0df4e602db3eb6006f1cfb9ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">b8f42a8edbfab6006f1cfb9ebf961958</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Notes &amp; Activity" display_value="Notes &amp; Activity" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">cb42d641db39f600e526f776bf9619ec</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>b8f42a8edbfab6006f1cfb9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Notes &amp; Activity" display_value="Notes &amp; Activity" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">cb42d641db39f600e526f776bf9619ec</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>8df4e602db3eb6006f1cfb9ebf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">b4f42a8edbfab6006f1cfb9ebf961958</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">3c1c5b794f30f600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>b4f42a8edbfab6006f1cfb9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">3c1c5b794f30f600c97627118110c75d</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>01f4e602db3eb6006f1cfb9ebf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">3cf42a8edbfab6006f1cfb9ebf961958</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Resource" display_value="Resource" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">68049c5cdb46fa00e526f776bf961938</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>3cf42a8edbfab6006f1cfb9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Resource" display_value="Resource" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">68049c5cdb46fa00e526f776bf961938</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:54</sys_created_on>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>81f4e602db3eb6006f1cfb9ebf961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides display_value="Created 20/05/2017 02:03:53">38f42a8edbfab6006f1cfb9ebf961958</sys_overrides>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="x_63024_case_table" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="Default view">3306e8d6db067e00a3c87566bf961943</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:54</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>38f42a8edbfab6006f1cfb9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="09ff3d105f231000b12e3572f2b4775d" view="Default view">fcf42a8edbfab6006f1cfb9ebf961957</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="x_63024_case_table" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="Default view">3306e8d6db067e00a3c87566bf961943</sys_ui_section>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_63024_case_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-19 16:03:53</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>fcf42a8edbfab6006f1cfb9ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_63024_case_table</sys_name>
+            <sys_overrides display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">7a0c5d35db29f200e526f776bf96193c</sys_overrides>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fcf42a8edbfab6006f1cfb9ebf961957</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-19 16:03:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

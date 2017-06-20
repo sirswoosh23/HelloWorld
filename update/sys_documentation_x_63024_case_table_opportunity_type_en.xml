@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="opportunity_type" label="Opportunity Type" language="en" table="x_63024_case_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>opportunity_type</element>
+            <help/>
+            <hint/>
+            <label>Opportunity Type</label>
+            <language>en</language>
+            <name>x_63024_case_table</name>
+            <plural>Opportunity Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-08 11:24:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2b9b7c2edb26b2006f1cfb9ebf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Opportunity Type</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_x_63024_case_table_opportunity_type_en</sys_update_name>
+            <sys_updated_by>nick.minnich@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-05-08 11:24:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

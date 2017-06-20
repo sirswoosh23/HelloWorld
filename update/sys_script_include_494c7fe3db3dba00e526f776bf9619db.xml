@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_63024_case.CaseVolume</api_name>
+        <client_callable>false</client_callable>
+        <description>AHEAD - Functions for creating Case Volume Projection records</description>
+        <name>CaseVolume</name>
+        <script><![CDATA[var CaseVolume = Class.create();
+CaseVolume.prototype = {
+	initialize: function() {
+	},
+	
+	// Copy the template Case Volume Projection records for the specified Case
+	// for the Services that it is using
+	copyTemplates: function(case_id) {
+		var grC = new GlideRecord('x_63024_case_table');
+		if (grC.get(case_id)) {
+			// Get a list of all the available Services
+			var services = this.getServices();
+			for (i=0; i<services.length; i++) {
+				// If Case is using that Service
+				if (grC.getValue(services[i]) == 'Yes') {
+					if (!this.alreadyHasCVP(grC.getUniqueValue(), services[i])) {
+						this.copySvc(services[i], grC.getUniqueValue());
+					}
+				}
+			}
+		}
+	},
+	
+	// Return a unique list of any Services that actually have CVP Templates created for them
+	getServices: function() {
+		var rtn = [];
+		var grA = new GlideRecord('x_63024_case_case_volume');
+		grA.addQuery('template', 'true');
+		grA.orderBy('service');
+		grA.query();
+		var prev = '';
+		while (grA.next()) {
+			var curr = grA.service.toString();
+			if (curr != prev) {
+				rtn.push(curr);
+			}
+			prev = curr;
+		}
+		return rtn;
+	},
+	
+	// Return true if Case already has CVP records for that Service, false if not.
+	alreadyHasCVP: function(case_id, svc) {
+		var rtn = false;
+		var grA = new GlideRecord('x_63024_case_case_volume');
+		grA.addQuery('case', case_id);
+		grA.addQuery('service', svc);
+		grA.query();
+		if (grA.next()) {
+			rtn = true;
+		}
+		return rtn;
+	},
+	
+	// Copy the Template CVP records for the specified Service, to the specified Case
+	copySvc: function(svc, case_id) {
+		var grI = new GlideRecord('x_63024_case_case_volume');
+		grI.addQuery('template', 'true');
+		grI.addQuery('service', svc);
+		grI.query();
+		var flds = this.getFields();
+		var grO = new GlideRecord('x_63024_case_case_volume');
+		while (grI.next()) {
+			grO.initialize();
+			for (x=0; x<flds.length; x++) {
+				grO.setValue(flds[x], grI.getValue(flds[x]));
+			}
+			grO.setValue('case', current.sys_id);
+			grO.setValue('from_template', grI.getUniqueValue());
+			grO.insert();
+		}
+	},
+	
+	// List of fields to copy from the Template records to the new Case records
+	getFields: function() {
+		var rtn = [];
+		rtn.push('encryption');
+		rtn.push('iops');
+		rtn.push('lms_class');
+		rtn.push('migrate');
+		rtn.push('number');
+		rtn.push('order');
+		rtn.push('replication_gb');
+		rtn.push('replication_included');
+		rtn.push('service');
+		rtn.push('service_class');
+		rtn.push('service_type');
+		rtn.push('volume_initial');
+		rtn.push('volume_y2_change');
+		rtn.push('volume_y3_change');
+		rtn.push('volume_y4_change');
+		rtn.push('volume_y5_change');
+		rtn.push('volume_y6_change');
+		rtn.push('volume_y7_change');
+		rtn.push('volume_y8_change');
+		rtn.push('volume_y9_change');
+		rtn.push('volume_y10_change');
+		return rtn;
+	},
+	
+	// Determine if the specified Case is ready to have Case Volume records created for it
+	// (This condition is also used for creating Case Tasks, or not)
+	isReady: function(current) {
+		var rtn = false;
+		var flds = [];
+		flds.push('disposition_archive');
+		flds.push('disposition_expand');
+		flds.push('disposition_migrate');
+		flds.push('disposition_recover');
+		flds.push('disposition_storage');
+		for (x=0; x<flds.length; x++) {
+			var val = current.getValue(flds[x]);
+			if (val) {
+				rtn = true;
+				break;
+			}
+		}
+		return rtn;
+	},
+	
+	type: 'CaseVolume'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-04-04 21:22:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>494c7fe3db3dba00e526f776bf9619db</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>CaseVolume</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_include_494c7fe3db3dba00e526f776bf9619db</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-04-25 13:41:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

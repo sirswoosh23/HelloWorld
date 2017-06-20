@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_63024_case.ServiceTemplateMap</api_name>
+        <client_callable>false</client_callable>
+        <description>AHEAD - Get list of Templates based on Services that were selected for the Case.</description>
+        <name>ServiceTemplateMap</name>
+        <script><![CDATA[var ServiceTemplateMap = Class.create();
+ServiceTemplateMap.prototype = {
+	initialize: function() {
+	},
+	
+	// Get a array of of Template sys_id's for the specified Case,
+	// based on the Services it is using and the Templates mapped to the.
+	getTemplates: function(case_id, service_type) {
+		var templates = [];
+		var grC = new GlideRecord('x_63024_case_table');
+		if (grC.get(case_id)) {
+			// Get a list of all the available Services
+			var services = this.getServices(service_type);
+			for (i=0; i<services.length; i++) {
+				//gs.info(services[i].column);
+				// If Case is using that Service
+				if (grC.getValue(services[i].column) == 'Yes') {
+					// Get the values that will be used to search the Map table
+					var shared = this.getSharedType(grC, services[i].type);
+					var dc_type = this.getDCType(grC, services[i].type);
+					var procure = this.getProcType(grC, services[i].type);
+					var dispo = this.getDispoType(grC, services[i].type);
+					var combos = this.getCombos(shared, dc_type, procure, dispo);
+					// Get list of Templates for that Service, based on Case's search values
+					var t_list = this.getTemplate(services[i].column, combos);
+					for (j=0; j<t_list.length; j++) {
+						if (t_list[j].sys_id) {
+							templates.push(t_list[j]);
+						}
+					}
+				}
+			}
+		}
+		// Sort all the Templates by the Service Template Map table's Order column
+		templates.sort(this.sortTemplates);
+		// Return back the sys_id's of the Templates, in Order
+		var rtn = [];
+		for (i=0; i<templates.length; i++) {
+			rtn.push(templates[i].sys_id);
+			//rtn.push(templates[i].name);
+		}
+		//gs.info('rtn=' + rtn);
+		return rtn;
+	},
+	
+	// The Choice field for the Service field on the Map table contains a list of all
+	// the columns on the Case table that pertain to Services. The Label value of the
+	// sys_choice record is the label of the field, and the Value is the column name.
+	// Parm: service_type is 'store', 'recover', 'archive', or 'migrate'
+	// Return an array of objects that lists the type of service, and the column name
+	// of all the services.
+	getServices: function(service_type) {
+		var rtn = [];
+		var grChoice = new GlideRecord('sys_choice');
+		grChoice.addQuery('name', 'x_63024_case_template_map');
+		grChoice.addQuery('element', 'service');
+		grChoice.addQuery('dependent_value', service_type);
+		grChoice.orderBy('sequence');
+		grChoice.query();
+		while (grChoice.next()) {
+			var svc = {};
+			svc.type = grChoice.dependent_value.toString();
+			svc.column = grChoice.value.toString();
+			rtn.push(svc);
+		}
+		return rtn;
+	},
+	
+	// Get the Template for the specified Service, from the Service Template map table
+	// that matches the Shared and DC Type values. Or, then try to find one that
+	// matches an 'Either' value for Shared or DC Type for the Service.
+	// Parameters:
+	//   service: string containing the service's column name from the Case table
+	//   combos: array of objects with values to search on
+	//   dc_type: CSC if to be in a CSC data center, or Client otherwise
+	//   procure: Procurement Type (Utility or CapEx)
+	//   dispo: Disposition Type (New, Existing, Decommission)
+	// Returns an object with the Template name, sys_id, and order, if a match is found
+	// or returns an empty object if no matching template is found.
+	getTemplate: function (service, combos) {
+		var rtn = [];
+		var grT = new GlideRecord('x_63024_case_template_map');
+		for (x=0; x<combos.length; x++) {
+			grT.initialize();
+			grT.addQuery('service', service);
+			grT.addQuery('shared', combos[x].shared);
+			grT.addQuery('dc', combos[x].dc);
+			grT.addQuery('disposition', combos[x].dispo);
+			grT.addQuery('procurement_type', combos[x].procure);
+			grT.orderBy('order');
+			grT.query();
+			gs.info('service={3},x={2},rows={0},combos={1}', grT.getRowCount(), JSON.stringify(combos[x]),x,service);
+			while (grT.next()) {
+				var tmplt = {};
+				tmplt.name = grT.template.getDisplayValue();
+				tmplt.sys_id = grT.template.toString();
+				tmplt.order = parseInt(grT.order.toString());
+				rtn.push(tmplt);
+			}
+		}
+		return rtn;
+	},
+	
+	// Determine if the specified Service is to be shared or not for the specified Case.
+	// Parameters:
+	//    grC: GlideRecord for the Case record
+	//    service_type: string of 'store', archive, recover, or migrate;
+	//                  as defined by the choice list on the Serivce Type
+	//                  column in the Service Template Map table
+	// Returns: true if the corresponding Shared field for that service is set to
+	//          Yes on that Case. false if not Yes.
+	getSharedType: function (grC, service_type) {
+		var fld = '';
+		if (service_type == 'store') {
+			fld = 'shared_leveraged_environment_store';
+		} else if (service_type == 'recover') {
+			fld = 'share_leveraged_environment_recover';
+		} else if (service_type == 'archive') {
+			fld = 'shared_environment_archive';
+		} else if (service_type == 'migrate') {
+			fld = 'shared_leveraged_migrate';
+		} else if (service_type == 'expand') {
+			fld = 'shared_leveraged_expand';
+		}
+		var rtn = this.cleanField(grC, fld);
+		return rtn;
+	},
+	
+	// Determine what type of Data Center is being used for the specified Case.
+	// This will be an array of DC Types (DXC or Customer), since a Service can have > 1 DC.
+	getDCType: function (grC, service_type) {
+		var fld = '';
+		if (service_type == 'store') {
+			fld = 'storage_data_centers';
+		} else if (service_type == 'recover') {
+			fld = 'recover_data_centers';
+		} else if (service_type == 'archive') {
+			fld = 'archive_data_centers';
+		} else if (service_type == 'migrate') {
+			fld = 'migration_data_centers';
+		} else if (service_type == 'expand') {
+			fld = 'expand_data_centers';
+		}
+		var dcs = grC.getValue(fld);
+		// Return an array of distinct DC Types. Lookup all the DCs that the service is using
+		// in the Data Centers table, and then find a distinct list of DC Types.
+		// Return an array of 1 element - 'Any' - if no DCs are found for the service.
+		var rtn = [];
+		if (dcs == null || dcs == '') {
+			rtn.push('Any');
+		} else {
+			var grD = new GlideRecord('x_63024_case_data_center');
+			grD.addQuery('sys_id', 'IN', dcs);
+			grD.orderBy('type');
+			grD.query();
+			var prev = '';
+			while (grD.next()) {
+				var dc_type = grD.getValue('type');
+				if (dc_type != prev) {
+					rtn.push(dc_type);
+					prev = dc_type;
+				}
+			}
+		}
+		return rtn;
+	},
+	
+	// Determine what type of Disposition is being used for the specified Case.
+	getDispoType: function (grC, service_type) {
+		var fld = '';
+		if (service_type == 'store') {
+			fld = 'disposition_storage';
+		} else if (service_type == 'recover') {
+			fld = 'disposition_recover';
+		} else if (service_type == 'archive') {
+			fld = 'disposition_archive';
+		} else if (service_type == 'migrate') {
+			fld = 'disposition_migrate';
+		} else if (service_type == 'expand') {
+			fld = 'disposition_expand';
+		}
+		var rtn = this.cleanField(grC, fld);
+		return rtn;
+	},
+
+	// Determine what type of Procurement is being used for the specified Case.
+	getProcType: function (grC, service_type) {
+		var fld = 'procurement_type';
+		var rtn = this.cleanField(grC, fld);
+		return rtn;
+	},
+	
+	// Return 'Any' if the specified field name is empty, or the field's value is empty.
+	// Otherwise return back the actual value in that field.
+	cleanField: function(grC, fld) {
+		var rtn = 'Any';
+		if (fld != '') {
+			if (grC.getValue(fld) != null) {
+				rtn = grC.getValue(fld);
+			}
+		}
+		return rtn;
+	},
+
+	// Sort the templates by the Order attribute, and then by the Name
+	// attribute if there's a tie on Order.
+	sortTemplates: function(a, b) {
+		if (a.order < b.order) {
+			return -1;
+		} else if (a.order == b.order) {
+			if (a.name < b.name) {
+				return -1;
+			} if (a.name == b.name) {
+				return 0;
+			} else {
+				return 1;
+			}
+		} else {
+			return 1;
+		}
+	},
+	
+	// This is a list of all the combinations that will be searched in the Service Template Map table
+	// in the order that they will be searched. Users can specify 'Any' for any of the 4 search fields,
+	// and thus we will search the most restrictive combinations first (those that match the actual
+	// values from the Case), before trying to match on the Map records with 'Any' values.
+	// Because DC Type can have > 1 value (i.e. DXC and/or Customer), we create combos for all types
+	// that the service calls for.
+	getCombos: function(shared, dc_type, procure, dispo) {
+		var combos = [];
+		var dc_any = false;
+		for (x=0; x<dc_type.length; x++) {
+			// This matches on all the specific values from the Case
+			combos.push({"shared": shared, "dc": dc_type[x], "procure": procure, "dispo": dispo});
+			// This matches on the 1st 3 specific values from the Case, and 'Any' for the Disposition value.
+			combos.push({"shared": shared, "dc": dc_type[x], "procure": procure, "dispo": "Any"});
+			// And so on...
+			combos.push({"shared": shared, "dc": dc_type[x], "procure": "Any", "dispo": dispo});
+			combos.push({"shared": shared, "dc": "Any", "procure": procure, "dispo": dispo});
+			combos.push({"shared": "Any", "dc": dc_type[x], "procure": procure, "dispo": dispo});
+			combos.push({"shared": shared, "dc": dc_type[x], "procure": "Any", "dispo": "Any"});
+			combos.push({"shared": shared, "dc": "Any", "procure": procure, "dispo": "Any"});
+			combos.push({"shared": shared, "dc": "Any", "procure": "Any", "dispo": dispo});
+			combos.push({"shared": "Any", "dc": dc_type[x], "procure": procure, "dispo": "Any"});
+			combos.push({"shared": "Any", "dc": dc_type[x], "procure": "Any", "dispo": dispo});
+			combos.push({"shared": "Any", "dc": "Any", "procure": procure, "dispo": dispo});
+			combos.push({"shared": shared, "dc": "Any", "procure": "Any", "dispo": "Any"});
+			combos.push({"shared": "Any", "dc": dc_type[x], "procure": "Any", "dispo": "Any"});
+			dc_any = dc_any || (dc_type[x] == 'Any');
+		}
+		// Only add these if the dc_type wasn't Any to begin with
+		if (!dc_any) {
+			combos.push({"shared": "Any", "dc": "Any", "procure": procure, "dispo": "Any"});
+			combos.push({"shared": "Any", "dc": "Any", "procure": "Any", "dispo": dispo});
+			combos.push({"shared": "Any", "dc": "Any", "procure": "Any", "dispo": "Any"});	
+		}
+		return combos;
+	},
+	
+	type: 'ServiceTemplateMap'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-03-21 22:23:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4c258493db2d3600a3c87566bf9619b5</sys_id>
+        <sys_mod_count>90</sys_mod_count>
+        <sys_name>ServiceTemplateMap</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_include_4c258493db2d3600a3c87566bf9619b5</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-12 22:27:26</sys_updated_on>
+    </sys_script_include>
+</record_update>

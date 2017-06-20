@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-06-02 22:11:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c54d7b6adb473e006f1cfb9ebf961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_63024_case_data_center.x_63024_case.data_center</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_security_acl display_value="x_63024_case_data_center">83ca3c7edb9af200a3c87566bf96199b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c54d7b6adb473e006f1cfb9ebf961918</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-02 22:11:44</sys_updated_on>
+        <sys_user_role display_value="case_data_center" name="case_data_center">b91f33eadb473e006f1cfb9ebf9619be</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

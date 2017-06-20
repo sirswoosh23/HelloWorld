@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Create Solution Summaries</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var grrsys = current.sys_id;
+var gr = new GlideRecord('x_63024_case_solution_summary');
+gr.query();
+while (gr.next()) {
+	if (current.enterprise_block_storage_s != '' && (gr.enterprise_block_storage_s == current.enterprise_block_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	if (current.general_purpose_file_storage_s != '' && (gr.general_purpose_file_storage_s == current.general_purpose_file_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.general_purpose_block_storage_s != '' && (gr.general_purpose_block_storage_s == current.general_purpose_block_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+		if (current.general_purpose_flash_storage_s != '' && (gr.flash_storage_s == current.general_purpose_flash_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	
+	if (current.hybrid_flash_disk_storage_s != '' && (gr.hybrid_flash_disk_storage_s == current.hybrid_flash_disk_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	
+	if (current.general_purpose_elastic_cloud_storage_s != '' && (gr.elastic_cloud_storage_s == current.general_purpose_elastic_cloud_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	
+	if (current.general_purpose_object_storage_s != '' && (gr.object_storage_s == current.general_purpose_object_storage_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.scaleout_nas_s != '' && (gr.scaleout_nas_s == current.scaleout_nas_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.cta_s != '' && (gr.cloud_tiering_appliance_s == current.cta_s) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.replication_customer_data_array_tools
+ != '' && (gr.array_based_replication == current.replication_customer_data_array_tools
+) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.replication_customer_data_appliance != '' && (gr.appliance_based_replication == current.replication_customer_data_appliance) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+		if (current.replication_customer_data_appliance != '' && (gr.replication_customer_secondary_sync == current.replication_customer_data_appliance) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.replication_customer_secondary_sync != '' && (gr.replication_customer_secondary_sync == current.replication_customer_secondary_sync) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+		if (current.replication_copy_dependent != '' && (gr.replication_copy_dependent == current.replication_copy_dependent) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+		if (current.ibm_remote_monitoring_storage_dev != '' && (gr.ibm_remote_monitoring_storage_dev == current.ibm_remote_monitoring_storage_dev) && (gr.vendor == current.storage_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Store';
+		grr.quantity = '1';
+		grr.data_center = current.storage_data_centers;
+		grr.dedicated_leveraged = current.shared_leveraged_environment_store;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		grr.insert();
+	}
+	if (current.data_retention_over_30_days != '' && (gr.data_retention_over_30_days == current.data_retention_over_30_days) && (gr.vendor == current.recover_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Recover';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_recover;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	if (current.standard_recover != '' && (gr.standard_recover == current.standard_recover) && (gr.vendor == current.recover_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Recover';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_recover;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	if (current.tape_management != '' && (gr.tape_management == current.tape_management) && (gr.vendor == current.recover_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Recover';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_recover;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	
+	if (current.nas_backup_non_isilon_ndmp_accelerator != '' && (gr.nas_backup == current.nas_backup_non_isilon_ndmp_accelerator) && (gr.vendor == current.recover_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Recover';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_recover;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	
+	if (current.nas_file_data_protection_via_ndmp != '' && (gr.nas_file_data_protection_via_ndmp == current.nas_file_data_protection_via_ndmp) && (gr.vendor == current.recover_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Recover';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_recover;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	
+	if (current.ibm_tape_backup_unit != '' && (gr.tape_out == current.ibm_tape_backup_unit) && (gr.vendor == current.recover_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Recover';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_recover;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	
+	if (current.obtaining_data_structure_connection != '' && (gr.storage_migration == current.obtaining_data_structure_connection) && (gr.vendor == current.migrate_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Migration';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_migrate;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+	
+	if (current.develop_wave_based_migration_plan != '' && (gr.backup_migration == current.develop_wave_based_migration_plan) && (gr.vendor == current.migrate_vendor)) {
+		var grr = new GlideRecord('x_63024_case_case_solution_summary');
+		grr.initialize();
+		grr.solution = gr.solution;
+		grr.case_reference = grrsys;
+		grr.offering = 'Migration';
+		grr.quantity = '1';
+		grr.data_center = current.recover_data_centers;
+		grr.dedicated_leveraged = current.share_leveraged_environment_migrate;
+		grr.purchase_type = current.procurement_type.getDisplayValue();
+		
+		grr.insert();
+	}
+}
+action.setRedirectURL(current);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-05-24 19:19:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>e571c1ffdb3e3a006f1cfb9ebf961940</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Create Solution Summaries</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_ui_action_e571c1ffdb3e3a006f1cfb9ebf961940</sys_update_name>
+        <sys_updated_by>nick.minnich@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-19 18:29:59</sys_updated_on>
+        <table>x_63024_case_table</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

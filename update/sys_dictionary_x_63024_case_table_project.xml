@@ -3,15 +3,14 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="project" table="x_63024_case_table">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
+        <calculation>(function calculatedFieldValue(current) {
 
 	// Add your code here
 	return '';  // return the calculated value
 
-})(current);]]></calculation>
+})(current);</calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
@@ -52,8 +51,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>frank.kuligowski</sys_created_by>
         <sys_created_on>2017-02-21 17:48:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>a34abe024f85b200c97627118110c769</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87675ae4dba1b200e526f776bf9619f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Project</sys_name>
         <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
@@ -61,8 +60,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
         <sys_update_name>sys_dictionary_x_63024_case_table_project</sys_update_name>
-        <sys_updated_by>frank.kuligowski</sys_updated_by>
-        <sys_updated_on>2017-02-21 17:48:45</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-13 19:56:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

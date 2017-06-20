@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>planned_task_case</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-03-29 19:14:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d177e43ddbf9f600a3c87566bf9619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>planned_task_case</sys_name>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_ui_view_d177e43ddbf9f600a3c87566bf9619cd</sys_update_name>
+        <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-03-29 19:14:20</sys_updated_on>
+        <title>planned_task_case</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

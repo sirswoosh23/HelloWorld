@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="develop_wave_based_migration_plan" label="Backup Migration" language="en" table="x_63024_case_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>develop_wave_based_migration_plan</element>
+            <help/>
+            <hint/>
+            <label>Backup Migration</label>
+            <language>en</language>
+            <name>x_63024_case_table</name>
+            <plural>Backup Migrations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-21 17:15:37</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>c09f7e4bdb617600e526f776bf96194b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Backup Migration</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_x_63024_case_table_develop_wave_based_migration_plan_en</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-23 22:42:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

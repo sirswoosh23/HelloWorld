@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_section caption="" section_id="c8e81f214f74b600c97627118110c7fb" sys_domain="global" table="x_63024_case_table" version="3" view="">
-        <sys_ui_annotation action="INSERT_OR_UPDATE">
-            <is_plain_text>false</is_plain_text>
-            <sys_created_by>frank.kuligowski</sys_created_by>
-            <sys_created_on>2017-02-27 18:50:57</sys_created_on>
-            <sys_id>1e620ec04fd9f600c97627118110c7a7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>frank.kuligowski</sys_updated_by>
-            <sys_updated_on>2017-02-27 18:50:57</sys_updated_on>
-            <text>Assignment</text>
-            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
-        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
@@ -216,7 +205,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>crob</sys_created_by>
             <sys_created_on>2017-02-07 20:28:13</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c8e81f214f74b600c97627118110c7fb</sys_id>

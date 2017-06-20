@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Solution Summary Mapping" max_length="40" name="x_63024_case_solution_summary" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Appliance Based Replication" max_length="40" name="appliance_based_replication" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Archive Compliant" max_length="40" name="archive_equipment_to_install" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Array Based Replication" max_length="40" name="array_based_replication" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Backup Migration" max_length="40" name="backup_migration" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud Tiering Appliance (s)" max_length="40" name="cloud_tiering_appliance_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Extended Online Retention up to 370 days" max_length="40" name="data_retention_over_30_days" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Elastic Cloud Storage (s)" max_length="40" name="elastic_cloud_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Enterprise Block Storage (s)" max_length="40" name="enterprise_block_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose All Flash Storage" max_length="40" name="flash_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose BLOCK Storage (s)" max_length="40" name="general_purpose_block_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose FILE Storage (s)" max_length="40" name="general_purpose_file_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="General Purpose Hybrid Block Storage" max_length="40" name="hybrid_flash_disk_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Remote Monitoring of Archive" max_length="40" name="ibm_remote_monitoring_of_archive_devices" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Remote Monitoring for Recover" max_length="40" name="ibm_remote_monitoring_recover_device" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="IBM Remote Monitoring for Storage" max_length="40" name="ibm_remote_monitoring_storage_dev" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="NAS Backup" max_length="40" name="nas_backup" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="NAS File Data Protection via NDMP" max_length="40" name="nas_file_data_protection_via_ndmp" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Object Storage (s)" max_length="40" name="object_storage_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Offering" max_length="40" name="offering" type="string">
+            <choice>
+                <element label="Store" sequence="0" value="Store"/>
+                <element label="Recover" sequence="1" value="Recover"/>
+                <element label="Archive" sequence="2" value="Archive"/>
+                <element label="Migration" sequence="3" value="Migration"/>
+                <element label="Expansion" sequence="4" value="Expansion"/>
+                <element label="Decommission" sequence="5" value="Decommission"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="In-System Replication" max_length="40" name="replication_copy_dependent" type="string">
+            <choice>
+                <element label="Dependent Copy" sequence="0" value="Dependent Copy"/>
+                <element label="Independent Copy" sequence="1" value="Independent Copy"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Replication to Secondary Data Center" max_length="40" name="replication_customer_secondary_sync" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Scaleout NAS (s)" max_length="40" name="scaleout_nas_s" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service" max_length="40" name="service" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Archive Intermediate" max_length="40" name="sites_where_equipment_decommissioned" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solution" max_length="40" name="solution" type="string">
+            <choice>
+                <element label="Avamar" sequence="0" value="Avamar"/>
+                <element label="VMAX" sequence="0" value="VMAX"/>
+                <element label="Cloud Array" sequence="1" value="Cloud Array"/>
+                <element label="VSP G1000 or higher" sequence="1" value="VSP G1000 or higher"/>
+                <element label="CTA" sequence="2" value="CTA"/>
+                <element label="VNX" sequence="2" value="VNX"/>
+                <element label="Data Domain" sequence="3" value="Data Domain"/>
+                <element label="VSP - G-Series" sequence="3" value="VSP - G-Series"/>
+                <element label="Decommission" sequence="4" value="Decommission"/>
+                <element label="HNAS" sequence="4" value="HNAS"/>
+                <element label="ECS Appliance" sequence="5" value="ECS Appliance"/>
+                <element label="Unity" sequence="5" value="Unity"/>
+                <element label="Enterprise Vault" sequence="6" value="Enterprise Vault"/>
+                <element label="VSP - F-Series" sequence="6" value="VSP - F-Series"/>
+                <element label="ECS Appliance" sequence="7" value="ECS Appliance"/>
+                <element label="Expansion" sequence="7" value="Expansion"/>
+                <element label="Cloud Array" sequence="8" value="Cloud Array"/>
+                <element label="Global Storage Migration Services" sequence="8" value="Global Storage Migration Services"/>
+                <element label="Global Backup Migration Services" sequence="9" value="Global Backup Migration Services"/>
+                <element label="HDI" sequence="9" value="HDI"/>
+                <element label="HCP" sequence="10" value="HCP"/>
+                <element label="Pure Storage" sequence="10" value="Pure Storage"/>
+                <element label="HDI" sequence="11" value="HDI"/>
+                <element label="Isilon" sequence="11" value="Isilon"/>
+                <element label="CTA" sequence="12" value="CTA"/>
+                <element label="HNAS" sequence="12" value="HNAS"/>
+                <element label="Isilon" sequence="13" value="Isilon"/>
+                <element label="RPA" sequence="13" value="RPA"/>
+                <element label="IBM Remote Services – Store" sequence="14" value="IBM Remote Services – Store"/>
+                <element label="SRDF" sequence="14" value="SRDF"/>
+                <element label="IBM Remote Services – Recover" sequence="15" value="IBM Remote Services – Recover"/>
+                <element label="Truecopy" sequence="15" value="Truecopy"/>
+                <element label="IBM Remote Services – Archive" sequence="16" value="IBM Remote Services – Archive"/>
+                <element label="Timefinder" sequence="16" value="Timefinder"/>
+                <element label="In-System Replication – Dependent Copy" sequence="17" value="In-System Replication – Dependent Copy"/>
+                <element label="Shadow Image" sequence="17" value="Shadow Image"/>
+                <element label="In-System Replication – Independent Copy" sequence="18" value="In-System Replication – Independent Copy"/>
+                <element label="SAN Fabric" sequence="18" value="SAN Fabric"/>
+                <element label="Avamar" sequence="19" value="Avamar"/>
+                <element label="NDMP Accelertor" sequence="19" value="NDMP Accelertor"/>
+                <element label="HCP" sequence="20" value="HCP"/>
+                <element label="Networker" sequence="20" value="Networker"/>
+                <element label="Data Domain" sequence="21" value="Data Domain"/>
+                <element label="Pure Storage" sequence="21" value="Pure Storage"/>
+                <element label="NDMP Accelertor" sequence="22" value="NDMP Accelertor"/>
+                <element label="RPA" sequence="22" value="RPA"/>
+                <element label="Networker" sequence="23" value="Networker"/>
+                <element label="Replication to Secondary DC – Synchronous" sequence="23" value="Replication to Secondary DC – Synchronous"/>
+                <element label="Enterprise Vault" sequence="24" value="Enterprise Vault"/>
+                <element label="Replication to Secondary DC – Asynchronous" sequence="24" value="Replication to Secondary DC – Asynchronous"/>
+                <element label="Global Migration Services" sequence="25" value="Global Migration Services"/>
+                <element label="Unified VNX" sequence="25" value="Unified VNX"/>
+                <element label="Expansion" sequence="26" value="Expansion"/>
+                <element label="SAN Fabric" sequence="26" value="SAN Fabric"/>
+                <element label="Decommission" sequence="27" value="Decommission"/>
+                <element label="Shadow Image" sequence="27" value="Shadow Image"/>
+                <element label="SRDF" sequence="28" value="SRDF"/>
+                <element label="Standard Recover" sequence="29" value="Standard Recover"/>
+                <element label="Tape Management" sequence="30" value="Tape Management"/>
+                <element label="Truecopy" sequence="31" value="Truecopy"/>
+                <element label="Timefinder" sequence="32" value="Timefinder"/>
+                <element label="Unity" sequence="33" value="Unity"/>
+                <element label="VMAX" sequence="34" value="VMAX"/>
+                <element label="VNX" sequence="35" value="VNX"/>
+                <element label="VSP - F-Series" sequence="36" value="VSP - F-Series"/>
+                <element label="VSP - G-Series" sequence="37" value="VSP - G-Series"/>
+                <element label="VSP G1000 or higher" sequence="38" value="VSP G1000 or higher"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Standard Recover" max_length="40" name="standard_recover" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Storage Migration" max_length="40" name="storage_migration" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tape Management" max_length="40" name="tape_management" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Backup to Tape" max_length="40" name="tape_out" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="storage_vendor" choice_table="x_63024_case_table" label="Vendor" max_length="40" name="vendor" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>

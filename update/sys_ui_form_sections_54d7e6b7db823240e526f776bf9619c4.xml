@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="54d7e6b7db823240e526f776bf9619c4" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_63024_case_case_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-17 19:58:41</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>18d7e6b7db823240e526f776bf9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_case_task" name="x_63024_case_case_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">54d7e6b7db823240e526f776bf9619c4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_63024_case_case_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">41a5f212db793a00a3c87566bf961978</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-04-17 19:58:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-17 19:58:41</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>dcd7e6b7db823240e526f776bf9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_case_task" name="x_63024_case_case_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">54d7e6b7db823240e526f776bf9619c4</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_63024_case_case_task" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="Default view">d8d7e6b7db823240e526f776bf9619c4</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-04-17 19:58:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-17 19:58:55</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>27d7e6b7db823240e526f776bf9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_case_task" name="x_63024_case_case_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">54d7e6b7db823240e526f776bf9619c4</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_63024_case_case_task" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="Default view">23d7e6b7db823240e526f776bf9619c6</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-04-17 19:58:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-17 19:59:08</sys_created_on>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>f2e72eb7db823240e526f776bf961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_63024_case_case_task" name="x_63024_case_case_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">54d7e6b7db823240e526f776bf9619c4</sys_ui_form>
+            <sys_ui_section caption="Attachments" display_value="Attachments" name="x_63024_case_case_task" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="Default view">fee72eb7db823240e526f776bf96192f</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-04-17 19:59:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_63024_case_case_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-17 19:58:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>54d7e6b7db823240e526f776bf9619c4</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>x_63024_case_case_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_54d7e6b7db823240e526f776bf9619c4</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 21:53:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Case Services" section_id="ec5f1feddb79f600a3c87566bf9619b1" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" table="pm_project_task" version="3" view="case_view">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Case Services</caption>
+            <header>false</header>
+            <name>pm_project_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 13:59:10</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>ec5f1feddb79f600a3c87566bf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Case Services</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_ui_section_ec5f1feddb79f600a3c87566bf9619b1</sys_update_name>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 13:59:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case View" name="case_view">ca3f1feddb79f600a3c87566bf9619ab</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

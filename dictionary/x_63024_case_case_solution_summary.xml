@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Case Solution Summary" max_length="40" name="x_63024_case_case_solution_summary" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_63024_case_table" type="reference"/>
+        <element label="Case Reference" max_length="32" name="case_reference" reference="x_63024_case_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="1000" name="comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Center" max_length="40" name="data_center" reference="x_63024_case_data_center" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Dedicated/Leveraged" max_length="40" name="dedicated_leveraged" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Disposition" max_length="40" name="disposition" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering" max_length="40" name="offering" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Procurement Type" max_length="40" name="purchase_type" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="solution" choice_table="x_63024_case_solution_summary" label="Solution" max_length="40" name="solution" type="string">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="case_reference"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

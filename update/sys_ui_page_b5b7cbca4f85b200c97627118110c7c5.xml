@@ -2,193 +2,197 @@
 <record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
-        <client_script><![CDATA[function enterForm(){
-	var vals = jQuery('#case_templates').val();
-	jQuery('#template_values').val(vals.toString());
-	return true;
+        <client_script><![CDATA[function enterForm() {
+    try {
+        //Gather options on righthand side and create a csv value of them.
+        var ids = '';
+        var length = jQuery('#multiselect_to option').length - 1;
+
+        jQuery('#multiselect_to option').each(function (k, e) {
+            ids += jQuery(this).val();
+            if (k != length) {
+                ids += ',';
+            }
+        });
+        jQuery('#template_values').val(ids);//Set csv of templates into the hidden input field submitted to server side
+    } catch (er) {
+    }
+    return true;
 }
 
 jQuery(document).ready(function () {
-    jQuery('#case_templates').multiSelect({ keepOrder: true });
-});]]></client_script>
-        <description>Multi Select API Reference:&#13;
-http://loudev.com/&#13;
-</description>
+    try {
+
+        //Onload, build orig_options as original list of options 
+        //So we can restore them when an option is selected.
+        var orig_options = '';
+        jQuery("#multiselect option").each(function(){
+            orig_options += '<option value="'+jQuery(this).val()+'">'+jQuery(this).text()+'</option>';
+        });
+        
+        jQuery('#multiselect').multiselect({
+            sort: false,
+            afterMoveToRight: function($left, $right, $options){
+                //Reset lefthand side to original list.
+                jQuery("#multiselect").empty().append(orig_options);
+            }
+        });
+
+
+        //If preselected templates values are sent then select them onload.
+        if (pre_selected !== '') {
+            var pre_ar = pre_selected.split(',');
+            for (var i in pre_ar) {
+                console.log("Double clicking for: " + pre_ar[i]);
+                jQuery('#multiselect option[value=' + pre_ar[i] + ']').attr('selected', 'true').dblclick();
+            }
+            jQuery('#multiselect_rightSelected').click();
+
+        }
+
+    } catch (er) {
+
+    }
+});
+
+
+
+]]></client_script>
+        <description>API Reference:&#13;
+http://crlcu.github.io/multiselect/#download</description>
         <direct>false</direct>
-        <endpoint>x_63024_case_create_prj_case.do</endpoint>
+        <endpoint>x_63024_case_create_prj_case_old.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 
- 
-	<script language="javascript" src="jquery_multi_select.jsdbx" /> 
-			 
-<g:ui_form>
-    
-      <g:evaluate>
-		  var case_id = RP.getWindowProperties().case_id;
-		  
-		  var temps = new GlideRecord('project_template');
-		  temps.addQuery('sys_class_name', 'project_template');
-		  temps.orderBy('name');
-		  temps.query();
-		  var pre_selected = RP.getWindowProperties().templates;
-	  </g:evaluate>
-	 <select multiple="multiple" id="case_templates" name="case_templates">
 
-		 
-         <j:while test="${temps.next()}">
-			 
-			 <j:if test="${pre_selected.indexOf(temps.sys_id) !== -1}">
-				 <option value="${temps.sys_id}" selected="true">${temps.name}</option>				 
-			 </j:if>
-			 
-			 <j:if test="${pre_selected.indexOf(temps.sys_id) === -1}">
-				 <option value="${temps.sys_id}">${temps.name}</option>				 
-			 </j:if>			 
-			 
+    <script language="javascript" src="x_63024_case.jquery_multi_select.jsdbx" /> 
 
-		 </j:while>	 
-    </select>	
-			<input type="hidden" id="template_values" name="template_values"/>
-			<input type="hidden" id="case_id" name="case_id" value="${case_id}"/>
-	
-	  <g:dialog_buttons_ok_cancel ok="return enterForm();" />
- </g:ui_form>
 
-	
+    <g:evaluate>
+        var case_id = RP.getWindowProperties().case_id;
+        var service_type = RP.getWindowProperties().service_type;
 
-	
-	<style>
-		 
+        var temps = new GlideRecord('project_template');
+        temps.addQuery('sys_class_name', 'project_template');
+        temps.orderBy('name');
+        temps.query();
+        var pre_selected = RP.getWindowProperties().templates;
+    </g:evaluate>
+
+    <g:ui_form>
 		
-		.ms-container{
-  background: transparent url('/switch.png') no-repeat 50% 50%;
-  width: 370px;
-	margin-bottom: 11px;
-}
-
-.ms-container:after{
-  content: ".";
-  display: block;
-  height: 0;
-  line-height: 0;
-  font-size: 0;
-  clear: both;
-  min-height: 0;
-  visibility: hidden;
-}
-
-.ms-container .ms-selectable, .ms-container .ms-selection{
-  background: #fff;
-  color: #555555;
-  float: left;
-  width: 45%;
-}
-.ms-container .ms-selection{
-  float: right;
-}
-
-.ms-container .ms-list{
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
-  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
-  transition: border linear 0.2s, box-shadow linear 0.2s;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  position: relative;
-  height: 200px;
-  padding: 0;
-  overflow-y: auto;
-}
-
-.ms-container .ms-list.ms-focus{
-  border-color: rgba(82, 168, 236, 0.8);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
-  outline: 0;
-  outline: thin dotted \9;
-}
-
-.ms-container ul{
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
-}
-
-.ms-container .ms-optgroup-container{
-  width: 100%;
-}
-
-.ms-container .ms-optgroup-label{
-  margin: 0;
-  padding: 5px 0px 0px 5px;
-  cursor: pointer;
-  color: #999;
-}
-
-.ms-container .ms-selectable li.ms-elem-selectable,
-.ms-container .ms-selection li.ms-elem-selection{
-  border-bottom: 1px #eee solid;
-  padding: 2px 10px;
-  color: #555;
-  font-size: 14px;
-}
-
-.ms-container .ms-selectable li.ms-hover,
-.ms-container .ms-selection li.ms-hover{
-  cursor: pointer;
-  color: #fff;
-  text-decoration: none;
-  background-color: #08c;
-}
-
-.ms-container .ms-selectable li.disabled,
-.ms-container .ms-selection li.disabled{
-  background-color: #eee;
-  color: #aaa;
-  cursor: text;
-}
+		<style>
+			#multiselect{
+				overflow: auto;
+			}
+		</style>
 		
-	</style>
-	
+        <script> 
+        
+            var pre_selected = '${pre_selected}';
+        </script>
+        <input type="hidden" id="template_values" name="template_values"/>
+        <input type="hidden" id="case_id" name="case_id" value="${case_id}"/>
+        <input type="hidden" id="service_type" name="service_type" value="${service_type}"/>
+
+
+        <div class="row">
+            <div class="col-sm-5">
+
+                <select name="from[]" id="multiselect" class="form-control" size="8" multiple="multiple">
+                    <j:while test="${temps.next()}">
+
+<!--                        <j:if test="${pre_selected.indexOf(temps.sys_id) !== -1}">
+                            <option value="${temps.sys_id}" selected="true">${temps.name}</option>				 
+                        </j:if>-->
+
+                        <!--<j:if test="${pre_selected.indexOf(temps.sys_id) === -1}">-->
+                            <option value="${temps.sys_id}">${temps.name}</option>				 
+                        <!--</j:if>-->
+
+
+                    </j:while>	 
+                </select>
+            </div>
+
+            <div class="col-sm-2">
+                <button type="button" id="multiselect_rightAll" class="btn btn-block">
+                    <span class="glyphicon glyphicon-forward"></span>
+                </button>
+
+                <button type="button" id="multiselect_rightSelected" class="btn btn-block">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </button>
+
+                <button type="button" id="multiselect_leftSelected" class="btn btn-block">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </button>
+
+                <button type="button" id="multiselect_leftAll" class="btn btn-block">
+                    <span class="glyphicon glyphicon-backward"></span>
+                </button>
+            </div>
+
+            <div class="col-sm-5">
+                <select name="to[]" id="multiselect_to" class="form-control" size="8" multiple="multiple"></select>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <button type="button" id="multiselect_move_up" class="btn btn-block">
+                            <span class="glyphicon glyphicon-arrow-up"></span>
+                        </button>
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="button" id="multiselect_move_down" class="btn btn-block">
+                            <span class="glyphicon glyphicon-arrow-down"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <g:dialog_buttons_ok_cancel ok="return enterForm();" />
+    </g:ui_form>
+
+
 </j:jelly>
 
 
 ]]></html>
-        <name>create_prj_case</name>
+        <name>create_prj_case_old</name>
         <processing_script><![CDATA[var templates = template_values;
+gs.info('Selected Templates: ' + templates);
+gs.info("Case ID: " + case_id);
+gs.info("Service Type: " + service_type);
 var templates_ar = templates.split(',');
 
 var prjUtils = new global.ProjectMaint();
-var prj = prjUtils.createFromCase(case_id, templates_ar);
+var prj = prjUtils.createFromCase(case_id, templates_ar, service_type);
 var instance = gs.getProperty('instance_name') ? gs.getProperty('instance_name') : 'dev13837';
 //https://dev13837.service-now.com/nav_to.do?uri=x_63024_case_table.do?sys_id=5d7b344e4f703200c97627118110c7dd
 
 //var url = 'https://'+instance_name+'.service-now.com/nav_to.do?uri=x_63024_case_table.do?sys_id='+prj.sys_id;
 var url = prj.getLink();
 gs.info(url);
- response.sendRedirect(url);]]></processing_script>
+ response.sendRedirect(url);
+ ]]></processing_script>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>crob</sys_created_by>
         <sys_created_on>2017-02-21 18:50:23</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b5b7cbca4f85b200c97627118110c7c5</sys_id>
-        <sys_mod_count>54</sys_mod_count>
-        <sys_name>create_prj_case</sys_name>
+        <sys_mod_count>121</sys_mod_count>
+        <sys_name>create_prj_case_old</sys_name>
         <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
         <sys_update_name>sys_ui_page_b5b7cbca4f85b200c97627118110c7c5</sys_update_name>
-        <sys_updated_by>frank.kuligowski</sys_updated_by>
-        <sys_updated_on>2017-02-27 19:51:14</sys_updated_on>
+        <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-04-07 15:50:08</sys_updated_on>
     </sys_ui_page>
 </record_update>

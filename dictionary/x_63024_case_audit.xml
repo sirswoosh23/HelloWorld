@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Case Audit" max_length="40" name="x_63024_case_audit" type="collection">
+        <element choice="1" label="Audit Approved" max_length="40" name="audit_approved" type="choice">
+            <choice>
+                <element label="Yes" sequence="10" value="Yes"/>
+                <element label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element hint="Selection available is from the group: SODT-Audit" label="Audit Completed By" max_length="32" name="audit_completed_by" reference="sys_user" reference_qual="javascript: new CaseUtils().userRefQualifier('SODT-Audit');" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Audit Date" max_length="40" name="audit_date" type="glide_date"/>
+        <element label="Audit Findings" max_length="4000" name="audit_findings" type="string"/>
+        <element choice="1" label="Audit Type" max_length="40" name="audit_type" type="choice">
+            <choice>
+                <element label="On-Boarding Audit" sequence="10" value="On-Boarding Audit"/>
+                <element label="Storage Performance" sequence="20" value="Storage Performance"/>
+                <element label="Storage Tool" sequence="30" value="Storage Tool"/>
+                <element label="Storage Billing" sequence="40" value="Storage Billing"/>
+                <element label="Backup Audit" sequence="50" value="Backup Audit"/>
+                <element label="BDSR Audit" sequence="60" value="BDSR Audit"/>
+                <element label="Dell EMC Blueprint Service" sequence="70" value="Dell EMC Blueprint Service"/>
+                <element label="Backup Reconciliation Process" sequence="80" value="Backup Reconciliation Process"/>
+            </choice>
+        </element>
+        <element label="Case" max_length="32" name="case" read_only="true" reference="x_63024_case_table" type="reference"/>
+        <index name="index">
+            <element name="audit_completed_by"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

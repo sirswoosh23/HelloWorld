@@ -10,7 +10,7 @@
         <sys_class_name>sys_m2m</sys_class_name>
         <sys_created_by>frank.kuligowski</sys_created_by>
         <sys_created_on>2017-02-27 17:25:46</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>679e21444f99f600c97627118110c7ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_63024_case_m2m_projects_cases</sys_name>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_comments_from_followups" label="Comments from FollowUps" language="en" table="x_63024_case_salesforce_extract">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_comments_from_followups</element>
+            <help/>
+            <hint/>
+            <label>Comments from FollowUps</label>
+            <language>en</language>
+            <name>x_63024_case_salesforce_extract</name>
+            <plural>Comments from FollowUps</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-17 13:00:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>84de11b5db29f200e526f776bf9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comments from FollowUps</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_x_63024_case_salesforce_extract_u_comments_from_followups_en</sys_update_name>
+            <sys_updated_by>nick.minnich@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-17 13:00:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

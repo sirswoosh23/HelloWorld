@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>crob</sys_created_by>
         <sys_created_on>2017-02-07 21:12:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>381327694f74b600c97627118110c79c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_63024_case_case_task.x_63024_case.user</sys_name>
@@ -16,7 +16,7 @@
         <sys_update_name>sys_security_acl_role_381327694f74b600c97627118110c79c</sys_update_name>
         <sys_updated_by>crob</sys_updated_by>
         <sys_updated_on>2017-02-07 21:12:47</sys_updated_on>
-        <sys_user_role display_value="x_63024_case.user" name="x_63024_case.user">93c8db214f74b600c97627118110c77f</sys_user_role>
+        <sys_user_role display_value="case_user" name="case_user">93c8db214f74b600c97627118110c77f</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

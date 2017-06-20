@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_63024_case_table</collection>
+        <condition>new CaseVolume().isReady(current);</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Case Tasks</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Create Case Tasks to assign work for this Case, if they
+	// haven't been created already.
+	var task_list = getTaskInfo();
+	createTasks(task_list, current);
+	
+})(current, previous);
+
+// Populate an array of objects, one for each Task that we want to create
+function getTaskInfo() {
+	var rtn = [];
+	// Assignment Groups
+	var groups = ['SODT-LDR','SODT-OOMG', current.assignment_group, 'SODT-OOMG'];
+	// Assigned To's
+	var assignees = ['','', current.assigned_to, ''];
+	// Short Description, and also used for long Description
+	var titles = [];
+	titles.push('Review and Authorize Offering Solution');
+	titles.push('Review and Validate Select Your Service');
+	titles.push('Create project(s) for New Case');
+	titles.push('Assign CTC');
+	// Create only when Oppty is ready (true), or just go (false)
+	var when_dones = [false, false, true, true]; 
+	// Create an object for each Task
+	for (i=0; i<groups.length;i++) {
+		var obj = {};
+		obj.group = groups[i];
+		obj.assigned_to = assignees[i];
+		obj.short_desc = titles[i];
+		obj.desc = 'Please, ' + titles[i] + ' for the parent Case ';
+		obj.desc += 'and update the Case details accordingly.';
+		obj.when_done = when_dones[i];
+		rtn.push(obj);
+	}
+	return rtn;
+}
+
+// Create the Tasks, using the array of objects we populated in getTaskInfo
+// Some Tasks have to wait until the Probability >= 100% before they're created.
+function createTasks(task_list, current) {
+	for (x=0; x<task_list.length; x++) {
+		if (task_list[x].when_done) {
+			if (!current.probability.nil()) {
+				var stage = current.probability;
+				if (stage.indexOf('06') >= 0) {
+					createTask(task_list[x], current);			
+				}
+			}
+		} else {
+			createTask(task_list[x], current);
+		}
+	}
+}
+
+// Create a Task, using the an objects we populated in getTaskInfo,
+// but only if there already isn't one of those Tasks with that short_desc
+// for this Case
+function createTask(task_info, current) {
+	var grT = new GlideRecord('x_63024_case_case_task');
+	grT.addQuery('short_description', task_info.short_desc);
+	grT.addQuery('case', current.getUniqueValue());
+	grT.query();
+	if (!grT.next()) {
+		grT.initialize();
+		grT.setValue('case',current.getUniqueValue());
+		grT.short_description = task_info.short_desc;
+		grT.assignment_group.setDisplayValue(task_info.group);
+		grT.assigned_to.setDisplayValue(task_info.assigned_to);
+		grT.description = task_info.desc;
+		grT.insert();
+	}
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-04-12 23:44:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>a79ba19adb82be00e526f776bf9619ca</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create Case Tasks</sys_name>
+        <sys_overrides display_value="Create Case Tasks">9d4af197db35ba00e526f776bf9619e9</sys_overrides>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_a79ba19adb82be00e526f776bf9619ca</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-15 00:00:29</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

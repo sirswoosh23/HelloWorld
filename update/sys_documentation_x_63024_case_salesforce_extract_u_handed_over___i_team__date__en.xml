@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_handed_over___i_team__date_" label="Handed over to DA&amp;I Team (date)" language="en" table="x_63024_case_salesforce_extract">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_handed_over___i_team__date_</element>
+            <help/>
+            <hint/>
+            <label>Handed over to DA&amp;I Team (date)</label>
+            <language>en</language>
+            <name>x_63024_case_salesforce_extract</name>
+            <plural>Handed over to DA&amp;I Team (date)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-17 13:00:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1cde11b5db29f200e526f776bf9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Handed over to DA&amp;I Team (date)</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_x_63024_case_salesforce_extract_u_handed_over___i_team__date__en</sys_update_name>
+            <sys_updated_by>nick.minnich@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-17 13:00:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

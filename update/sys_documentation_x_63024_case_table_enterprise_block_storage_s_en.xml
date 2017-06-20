@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nick.minnich</sys_created_by>
             <sys_created_on>2017-02-23 15:02:43</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>80d7647e4f013600c97627118110c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Enterprise Block Storage (s)</sys_name>

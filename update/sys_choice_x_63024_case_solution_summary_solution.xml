@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="solution" table="x_63024_case_solution_summary" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avamar</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf961928</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:15</sys_updated_on>
+            <value>Avamar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>NDMP</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>59b4e5b2db537240ba5efc2ebf96196b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:07</sys_updated_on>
+            <value>NDMP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>NDMP</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 21:37:43</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>6397f32adb473e006f1cfb9ebf961976</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>NDMP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VMAX</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>0</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>8ce70a70dbb276006f1cfb9ebf961906</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>VMAX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud Array</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf961928</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:17</sys_updated_on>
+            <value>Cloud Array</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Global Migration Services</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>5db4e5b2db537240ba5efc2ebf96196b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:08</sys_updated_on>
+            <value>Global Migration Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSP G1000 or higher</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>1</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c0e70a70dbb276006f1cfb9ebf961907</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>VSP G1000 or higher</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CTA</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>2</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf961928</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:36</sys_updated_on>
+            <value>CTA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>IBM Remote Mgmt Services</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>2</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf96192b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>IBM Remote Mgmt Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VNX</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>2</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>84e70a70dbb276006f1cfb9ebf961907</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>VNX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Domain</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>3</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf961928</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:37</sys_updated_on>
+            <value>Data Domain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSP - G-Series</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>3</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>48e70a70dbb276006f1cfb9ebf961907</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>VSP - G-Series</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommission</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>4</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf961929</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:15</sys_updated_on>
+            <value>Decommission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HNAS</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>4</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>0ce70a70dbb276006f1cfb9ebf961907</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>HNAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ECS Appliance</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>5</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf961929</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:17</sys_updated_on>
+            <value>ECS Appliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unity</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>5</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>cce70a70dbb276006f1cfb9ebf961907</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>Unity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Vault</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>6</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf961929</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:36</sys_updated_on>
+            <value>Enterprise Vault</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSP - F-Series</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>6</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>80e70a70dbb276006f1cfb9ebf961908</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>VSP - F-Series</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ECS Appliance</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>7</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>44e70a70dbb276006f1cfb9ebf961908</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>ECS Appliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expansion</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>7</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf961929</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:37</sys_updated_on>
+            <value>Expansion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud Array</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>8</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>08e70a70dbb276006f1cfb9ebf961908</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>Cloud Array</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Global Storage Migration Services</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>8</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf96192a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:16</sys_updated_on>
+            <value>Global Storage Migration Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Global Backup Migration Services</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>9</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf96192a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>Global Backup Migration Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDI</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>9</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c8e70a70dbb276006f1cfb9ebf961908</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>HDI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCP</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>10</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf96192a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:36</sys_updated_on>
+            <value>HCP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pure Storage</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>10</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>8ce70a70dbb276006f1cfb9ebf961908</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>Pure Storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDI</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>11</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf96192a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:37</sys_updated_on>
+            <value>HDI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Isilon</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>11</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>40e70a70dbb276006f1cfb9ebf961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>Isilon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CTA</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>12</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>04e70a70dbb276006f1cfb9ebf961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>CTA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HNAS</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>12</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf96192b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:16</sys_updated_on>
+            <value>HNAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Isilon</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>13</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf96192b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:36</sys_updated_on>
+            <value>Isilon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPA</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>13</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c4e70a70dbb276006f1cfb9ebf961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>RPA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBM Remote Services – Store</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>14</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-18 13:55:23</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>473760b3db97b2406f1cfb9ebf961973</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:07</sys_updated_on>
+            <value>IBM Remote Services – Store</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SRDF</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>14</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>88e70a70dbb276006f1cfb9ebf961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>SRDF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBM Remote Services – Recover</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>15</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-18 13:55:23</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>0f37a0b3db97b2406f1cfb9ebf961978</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:01:58</sys_updated_on>
+            <value>IBM Remote Services – Recover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Truecopy</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>15</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>4ce70a70dbb276006f1cfb9ebf961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>Truecopy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBM Remote Services – Archive</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>16</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-18 13:55:23</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>0337a0b3db97b2406f1cfb9ebf961979</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:01:50</sys_updated_on>
+            <value>IBM Remote Services – Archive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Timefinder</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>16</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>00e70a70dbb276006f1cfb9ebf96190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>Timefinder</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In-System Replication – Dependent Copy</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>17</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf96192b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:37</sys_updated_on>
+            <value>In-System Replication – Dependent Copy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shadow Image</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>17</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c0e70a70dbb276006f1cfb9ebf96190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>Shadow Image</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In-System Replication – Independent Copy</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>18</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf96192c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:16</sys_updated_on>
+            <value>In-System Replication – Independent Copy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAN Fabric</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>18</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>84e70a70dbb276006f1cfb9ebf96190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>SAN Fabric</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Avamar</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>19</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>48e70a70dbb276006f1cfb9ebf96190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>Avamar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NDMP Accelertor</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>19</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf96192c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>NDMP Accelertor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCP</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>20</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>0ce70a70dbb276006f1cfb9ebf96190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>HCP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Networker</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>20</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf96192c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:36</sys_updated_on>
+            <value>Networker</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Domain</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>21</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>cce70a70dbb276006f1cfb9ebf96190a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>Data Domain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pure Storage</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>21</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf96192c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:38</sys_updated_on>
+            <value>Pure Storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NDMP Accelertor</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>22</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>80e70a70dbb276006f1cfb9ebf96190b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>NDMP Accelertor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPA</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>22</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf96192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:16</sys_updated_on>
+            <value>RPA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Networker</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>23</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>44e70a70dbb276006f1cfb9ebf96190b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>Networker</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replication to Secondary DC – Synchronous</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>23</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf96192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>Replication to Secondary DC – Synchronous</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Vault</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>24</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>08e70a70dbb276006f1cfb9ebf96190b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>Enterprise Vault</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replication to Secondary DC – Asynchronous</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>24</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf96192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:36</sys_updated_on>
+            <value>Replication to Secondary DC – Asynchronous</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Global Migration Services</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>25</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c8e70a70dbb276006f1cfb9ebf96190b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:53</sys_updated_on>
+            <value>Global Migration Services</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unified VNX</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>25</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf96192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:38</sys_updated_on>
+            <value>Unified VNX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expansion</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>26</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>8ce70a70dbb276006f1cfb9ebf96190b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:52</sys_updated_on>
+            <value>Expansion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAN Fabric</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>26</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf96192e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:16</sys_updated_on>
+            <value>SAN Fabric</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommission</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>27</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>40e70a70dbb276006f1cfb9ebf96190c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:51</sys_updated_on>
+            <value>Decommission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shadow Image</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>27</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf96192e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>Shadow Image</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SRDF</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>28</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf96192e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:37</sys_updated_on>
+            <value>SRDF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard Recover</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>29</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ddb4e5bedb137240ba5efc2ebf96192e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>Standard Recover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tape Management</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>30</sequence>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-19 18:05:58</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>1b2ae604db6fb2406f1cfb9ebf961911</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:01:58</sys_updated_on>
+            <value>Tape Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Truecopy</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>31</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d1b4e5bedb137240ba5efc2ebf96192f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:16</sys_updated_on>
+            <value>Truecopy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Timefinder</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>32</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d5b4e5bedb137240ba5efc2ebf96192f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:35</sys_updated_on>
+            <value>Timefinder</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unity</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>33</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d9b4e5bedb137240ba5efc2ebf96192f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:37</sys_updated_on>
+            <value>Unity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VMAX</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>34</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>55b4e5b2db537240ba5efc2ebf96196a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:07</sys_updated_on>
+            <value>VMAX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VNX</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>35</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>59b4e5b2db537240ba5efc2ebf96196a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:07</sys_updated_on>
+            <value>VNX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSP - F-Series</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>36</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>5db4e5b2db537240ba5efc2ebf96196a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:08</sys_updated_on>
+            <value>VSP - F-Series</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSP - G-Series</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>37</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>51b4e5b2db537240ba5efc2ebf96196b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:07</sys_updated_on>
+            <value>VSP - G-Series</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>solution</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VSP G1000 or higher</label>
+            <language>en</language>
+            <name>x_63024_case_solution_summary</name>
+            <sequence>38</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-15 15:50:02</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>55b4e5b2db537240ba5efc2ebf96196b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:07</sys_updated_on>
+            <value>VSP G1000 or higher</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>solution</element>
+            <name>x_63024_case_solution_summary</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-05-15 16:44:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>00e70a70dbb276006f1cfb9ebf961907</sys_id>
+            <sys_mod_count>80</sys_mod_count>
+            <sys_name>solution</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_choice_x_63024_case_solution_summary_solution</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-19 21:02:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="supply_of_media_tape" label="Supply of Media Tape" language="en" table="x_63024_case_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>supply_of_media_tape</element>
+            <help/>
+            <hint/>
+            <label>Supply of Media Tape</label>
+            <language>en</language>
+            <name>x_63024_case_table</name>
+            <plural>Supply of Media Tapes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 20:44:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e85be7e2db473e006f1cfb9ebf9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supply of Media Tape</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_x_63024_case_table_supply_of_media_tape_en</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-02 20:44:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

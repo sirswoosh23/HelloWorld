@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the LSM Class value based on the Service Class, or blank if no match.&#13;
+These values came from CSC, in their 'CLIENT STaaS Select Your Service and Project Cost Drivers' spreadsheet, in the 'Store Volume Projection' tab.&#13;
+&#13;
+This will cascade more changes on the LSM Class field's OnChange event.&#13;
+</description>
+        <field>service_class</field>
+        <global>true</global>
+        <messages/>
+        <name>Service Class Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		return;
+	}
+	// Set the LSM Class value based on the Service Class,
+	// or blank if no match.
+	var key_val = {};
+	key_val['Class GB1'] = 'Performance Block';
+	key_val['Class GB2'] = 'General Purpose Block';
+	key_val['Class GB3'] = 'Capacity Block';
+	key_val['Class GB4'] = 'High Capacity Block';
+	key_val['Class GF1'] = 'High Performance File';
+	key_val['Class GF2'] = 'Performance File';
+	key_val['Class GF3'] = 'General Purpose File';
+	key_val['Class GF4'] = 'Capacity File';
+	key_val['HDS Object Store'] = '';
+	if (key_val[newValue]) {
+		g_form.setValue('lms_class', key_val[newValue]);
+	} else {
+		g_form.setValue('lms_class', '');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-04-03 21:28:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>a6553adbdb75ba00e526f776bf961972</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Service Class Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_client_a6553adbdb75ba00e526f776bf961972</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-14 22:19:58</sys_updated_on>
+        <table>x_63024_case_case_volume</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Data Center" max_length="40" name="x_63024_case_data_center" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Customer" sequence="0" value="Customer"/>
+                <element label="DXC" sequence="2" value="DXC"/>
+            </choice>
+        </element>
+    </element>
+</database>

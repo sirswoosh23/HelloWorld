@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="service" table="x_63024_case_template_map" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>expand</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Erasure Required</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-05 21:56:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>7abf89c0dbc2fa00e526f776bf96198c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>data_erasure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backup to Tape</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>de2a7908db35b600e526f776bf96193c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>ibm_tape_backup_unit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Array Based Replication</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:16</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>3d2a7908db35b600e526f776bf961920</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>replication_customer_data_array_tools</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Asynchronous Replication</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>0</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:16</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>f12a7908db35b600e526f776bf961921</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>replication_customer_secondary_async</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Erasure</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>062a7908db35b600e526f776bf96192b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>customer_data_erasure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Replication Copy - Independent</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>422a7908db35b600e526f776bf961929</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>replication_copy_independent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Appliance Based Replication</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:16</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>f12a7908db35b600e526f776bf961920</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>replication_customer_data_appliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>expand</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Are Switches part of Decommmission</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>1</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-04-05 21:56:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>bebf89c0dbc2fa00e526f776bf96198c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>switches_decom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud Tiering Appliance (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>2</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:16</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>b92a7908db35b600e526f776bf961921</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>cta_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encryption at Rest</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>2</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>5a2a7908db35b600e526f776bf961938</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>encryption_at_rest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Expansion - Existing Storage Device with a new rack</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>2</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>fd2a7908db35b600e526f776bf961922</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>expansion_existing_device_new_rack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extended Online Retention up to 370 days</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>3</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>da2a7908db35b600e526f776bf96192b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:12</sys_updated_on>
+            <value>data_retention_over_30_days</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Encryption at Rest</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>3</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 20:57:32</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>326e6726db473e006f1cfb9ebf9619c5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>encryption_at_rest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Migration - Storage</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>3</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>8e2a7908db35b600e526f776bf961926</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>migration_storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Expansion - Existing Storage Device with Shelf and/or disks</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>4</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>b52a7908db35b600e526f776bf961923</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>expansion_storage_with_shelf_disks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Elastic Cloud Storage (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>4</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>712a7908db35b600e526f776bf961922</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>general_purpose_elastic_cloud_storage_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBM Remote Monitoring of Recover</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>4</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>122a7908db35b600e526f776bf961939</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>ibm_remote_monitoring_recover_device</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Block Storage (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>5</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>392a7908db35b600e526f776bf961922</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>enterprise_block_storage_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MS SharePoint</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>5</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d62a7908db35b600e526f776bf961939</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:12</sys_updated_on>
+            <value>ms_sharepoint</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fiber Channel 8GB</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>6</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>062a7908db35b600e526f776bf961924</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>fiber_channel_8gb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NAS Backup</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>6</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>9e2a7908db35b600e526f776bf961939</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>nas_backup_non_isilon_ndmp_accelerator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fiber Channel 16GB</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>7</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>4e2a7908db35b600e526f776bf961923</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>fiber_channel_16gb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NAS File Data Protection via NDMP</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>7</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 21:01:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>714f6366db473e006f1cfb9ebf96196f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>nas_file_data_protection_via_ndmp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>File Data Deduplication</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>8</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 20:58:57</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>abbe2b26db473e006f1cfb9ebf961985</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>file_data_deduplication</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PC/Laptop Backup</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>8</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>562a7908db35b600e526f776bf96193a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>pc_laptop_backup</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Purpose All Flash Storage</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>9</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ca2a7908db35b600e526f776bf961924</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:12</sys_updated_on>
+            <value>general_purpose_flash_storage_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recover WAN Bandwidth - Client</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>9</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>1e2a7908db35b600e526f776bf96193a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>wan_bandwidth_client</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Purpose BLOCK Storage (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>10</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>822a7908db35b600e526f776bf961925</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>general_purpose_block_storage_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recover WAN Bandwidth - DXC</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>10</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d22a7908db35b600e526f776bf96193b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:12</sys_updated_on>
+            <value>wan_bandwidth_csc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Purpose FILE Storage (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>11</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>4a2a7908db35b600e526f776bf961925</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>general_purpose_file_storage_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recover Managed Service</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>11</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 21:30:10</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>34e5b766db473e006f1cfb9ebf96190d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-16 22:11:45</sys_updated_on>
+            <value>recover_managed_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Purpose Hybrid Block Storage</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>12</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>022a7908db35b600e526f776bf961926</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:06</sys_updated_on>
+            <value>general_purpose_hybrid_flash</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replication Setup - Existing Target</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>12</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>9a2a7908db35b600e526f776bf96193b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>replication_setup_existing_target</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBM Remote Monitoring for Storage</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>13</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c62a7908db35b600e526f776bf961926</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:12</sys_updated_on>
+            <value>ibm_remote_monitoring_storage_dev</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replication Setup - New Target</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>13</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>522a7908db35b600e526f776bf96193c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>replication_setup_new_target</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NAS Bandwidth - 10GB</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>14</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>462a7908db35b600e526f776bf961927</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>nas_bandwidth_10gb_what_data_center_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard Recover</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>14</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-12 22:08:45</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>a39edb71dbdffe00ba5efc2ebf961906</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>standard_recover</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NAS Bandwidth - 1GB</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>15</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>0e2a7908db35b600e526f776bf961927</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>nas_bandwidth_1gb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supply of Media Tape</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>15</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 21:00:33</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>031f2b26db473e006f1cfb9ebf961987</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:06</sys_updated_on>
+            <value>supply_of_media_tape</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Object Storage (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>16</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>c22a7908db35b600e526f776bf961928</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>general_purpose_object_storage_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tape Encryption</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>16</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>1a2a7908db35b600e526f776bf96193c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>tape_encryption</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In-System Replication</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>17</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>8a2a7908db35b600e526f776bf961928</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>replication_copy_dependent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>recover</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tape Management</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>17</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 21:00:49</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>fa2f6366db473e006f1cfb9ebf961915</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>tape_management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replication Infrastructure</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>18</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 20:58:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>e6aee726db473e006f1cfb9ebf9619cb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>replication_infrastructure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Replication to Secondary Data Center</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>19</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>4e2a7908db35b600e526f776bf96192a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>replication_customer_secondary_sync</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scaleout NAS (s)</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>20</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>0a2a7908db35b600e526f776bf961929</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:07</sys_updated_on>
+            <value>scaleout_nas_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>archive</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Archive Managed Service</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>21</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-16 22:12:33</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ced5c81bdb5b7240ba5efc2ebf961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-16 22:12:33</sys_updated_on>
+            <value>archive_managed_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storage Managed Service</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>21</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-06-02 21:24:32</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d694bf66db473e006f1cfb9ebf9619be</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-16 22:11:51</sys_updated_on>
+            <value>storage_managed_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storage WAN Bandwidth - Client</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>22</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:17</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ce2a7908db35b600e526f776bf961929</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:12</sys_updated_on>
+            <value>wan_bandwidth_client_what_data_center_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>store</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storage WAN Bandwidth - DXC</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>23</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:18</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>862a7908db35b600e526f776bf96192a</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:10</sys_updated_on>
+            <value>wan_bandwidth_csc_what_data_center_s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>migrate</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Backup Migration</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>390</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>a62a7908db35b600e526f776bf96193d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:11</sys_updated_on>
+            <value>develop_wave_based_migration_plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>migrate</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storage Migration</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>400</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>6e2a7908db35b600e526f776bf96193d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>obtaining_data_structure_connection</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>archive</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Archive Compliant</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>410</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>262a7908db35b600e526f776bf96193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:08</sys_updated_on>
+            <value>archive_equipment_to_install</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>archive</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Archive Intermediate</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>420</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ea2a7908db35b600e526f776bf96193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:13</sys_updated_on>
+            <value>sites_where_equipment_decommissioned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>archive</dependent_value>
+            <element>service</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IBM Remote Monitoring of Archive</label>
+            <language>en</language>
+            <name>x_63024_case_template_map</name>
+            <sequence>440</sequence>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:19</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>6a2a7908db35b600e526f776bf96193f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-14 22:14:09</sys_updated_on>
+            <value>ibm_remote_monitoring_of_archive_devices</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>service</element>
+            <name>x_63024_case_template_map</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-24 14:46:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b52a7908db35b600e526f776bf961920</sys_id>
+            <sys_mod_count>131</sys_mod_count>
+            <sys_name>service</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_choice_x_63024_case_template_map_service</sys_update_name>
+            <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-06-16 22:12:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

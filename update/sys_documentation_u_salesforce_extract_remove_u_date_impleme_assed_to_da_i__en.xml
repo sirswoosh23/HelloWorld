@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_date_impleme_assed_to_da_i_" label="Date Implementation Project started&#10;(If blank in project workbook, date passed t" language="en" table="u_salesforce_extract_remove">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_date_impleme_assed_to_da_i_</element>
+            <help/>
+            <hint/>
+            <label>Date Implementation Project started
+(If blank in project workbook, date passed t</label>
+            <language>en</language>
+            <name>u_salesforce_extract_remove</name>
+            <plural>Date Implementation Project started
+(If blank in project workbook, date passed t</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-30 13:14:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>699ed0c2db713a00a3c87566bf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Date Implementation Project started
+(If blank in project workbook, date passed to DA&amp;I)</sys_name>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_documentation_u_salesforce_extract_remove_u_date_impleme_assed_to_da_i__en</sys_update_name>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-30 13:14:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

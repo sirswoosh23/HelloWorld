@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>crob</sys_created_by>
         <sys_created_on>2017-03-06 03:32:12</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5443ba4a4f957e00c97627118110c774</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>rm_sprint</sys_name>

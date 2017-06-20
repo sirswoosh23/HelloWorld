@@ -81,7 +81,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_63024_case_table" name="x_63024_case_table" sys_domain="global" view="Default view">a82d1ba14f74b600c97627118110c7df</sys_ui_form>
-            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_63024_case_table" sys_domain="global" view="Default view">3c1c5b794f30f600c97627118110c75d</sys_ui_section>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_63024_case_table" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">3c1c5b794f30f600c97627118110c75d</sys_ui_section>
             <sys_updated_by>nick.minnich</sys_updated_by>
             <sys_updated_on>2017-02-23 17:17:31</sys_updated_on>
         </sys_ui_form_section>

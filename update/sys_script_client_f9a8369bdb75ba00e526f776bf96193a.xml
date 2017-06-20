@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the 4 capacity-related field's values based on the LSM Class, or blank if no match.&#13;
+These values came from CSC, in their 'CLIENT STaaS Select Your Service and Project Cost Drivers' spreadsheet, in the 'Store Volume Projection' tab.</description>
+        <field>lms_class</field>
+        <global>true</global>
+        <messages/>
+        <name>LMS Class Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		return;
+	}
+	var ok = false;
+	// Get the correlated values for each LSM Class value, as an array of objects.
+	var fld_objs = getValues();
+	// Try to find the value that the user entered in our array of objects.
+	// If found, then populate the form values for those fields (via setValues())
+ 	for (x=0; x<fld_objs.length; x++) {
+ 		if (fld_objs[x].lms_class == newValue) {
+			setValues(fld_objs[x]);
+ 			ok = true;
+ 			break;
+ 		}
+ 	}
+	// If no match found in the array of objects, then just set the form fields all to blank,
+	// which is supplied by the last item in the array (it's all blanks).
+ 	if (!ok) {
+ 		setValues(fld_objs[fld_objs.length-1]);
+ 	}
+}
+
+function getValues() {
+	var rtn = [];
+	rtn.push({"lms_class":"Performance Block", "iops":"up to 10,000 / <= 8 ms"});
+	rtn.push({"lms_class":"General Purpose Block", "iops":"up to 5,000 / <= 15 ms"});
+	rtn.push({"lms_class":"Capacity Block", "iops":"up to 2,500 / <= 30 ms"});
+	rtn.push({"lms_class":"High Capacity Block", "iops":"up to 400 / <= 80 ms"});
+	rtn.push({"lms_class":"High Performance File", "iops":"up to 10,000 / <= 8 ms"});
+	rtn.push({"lms_class":"Performance File", "iops":"up to 5,000 / <= 30 ms"});
+	rtn.push({"lms_class":"General Purpose File", "iops":"up to 2,500 / <= 60 ms"});
+	rtn.push({"lms_class":"Capacity File", "iops":"up to 400 / <= 80 ms"});
+	for (x=0; x<rtn.length; x++) {
+		rtn[x].encryption = 'Extra';
+		rtn[x].replication_gb = '#gb';
+		rtn[x].replication_included = 'Yes';
+	}
+	rtn.push({"lms_class":"Performance EMC", "iops":"", "encryption":"", "replication_gb":"", "replication_included":""});
+	rtn.push({"lms_class":"Standard EMC", "iops":"", "encryption":"", "replication_gb":"", "replication_included":""});
+	rtn.push({"lms_class":"Capacity EMC", "iops":"", "encryption":"", "replication_gb":"", "replication_included":""});
+	rtn.push({"lms_class":"", "iops":"", "encryption":"", "replication_gb":"", "replication_included":""});
+	return rtn;
+}
+
+function setValues(fld_obj) {
+	var flds = ['iops','encryption','replication_gb','replication_included'];
+	for (i=0; i<flds.length; i++) {
+		g_form.setValue(flds[i], fld_obj[flds[i]]);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>frank.kuligowski@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-04-03 21:39:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>f9a8369bdb75ba00e526f776bf96193a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>LMS Class Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name>sys_script_client_f9a8369bdb75ba00e526f776bf96193a</sys_update_name>
+        <sys_updated_by>frank.kuligowski@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-14 22:19:58</sys_updated_on>
+        <table>x_63024_case_case_volume</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

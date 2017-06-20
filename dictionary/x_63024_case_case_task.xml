@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Case task" max_length="40" name="x_63024_case_case_task" type="collection">
+    <element audit="true" extends="task" label="Case task" max_length="40" name="x_63024_case_case_task" sizeclass="102" type="collection">
+        <element label="Actual end" max_length="40" name="actual_end" type="glide_date_time"/>
+        <element label="Actual start" max_length="40" name="actual_start" type="glide_date_time"/>
         <element label="Case" max_length="32" name="case" reference="x_63024_case_table" type="reference"/>
     </element>
 </database>

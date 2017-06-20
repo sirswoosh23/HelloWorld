@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>crob</sys_created_by>
         <sys_created_on>2017-02-07 21:26:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c716e32d4f74b600c97627118110c7bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>GlideRecord.update</sys_name>

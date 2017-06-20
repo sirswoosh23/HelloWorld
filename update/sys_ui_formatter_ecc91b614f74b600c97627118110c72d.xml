@@ -2,13 +2,12 @@
 <record_update table="sys_ui_formatter">
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <angular_module/>
         <formatter>process_flow.xml</formatter>
         <name>Process Flow</name>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>crob</sys_created_by>
         <sys_created_on>2017-02-07 20:32:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ecc91b614f74b600c97627118110c72d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Process Flow</sys_name>

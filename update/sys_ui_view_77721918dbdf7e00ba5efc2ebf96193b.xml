@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-tempa2223e67db837e00ba5efc2ebf961970nick.minnich@thinkahead.com</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>nick.minnich@thinkahead.com</sys_created_by>
+        <sys_created_on>2017-06-07 20:05:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>77721918dbdf7e00ba5efc2ebf96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.minnich@thinkahead.com</sys_updated_by>
+        <sys_updated_on>2017-06-07 20:05:40</sys_updated_on>
+        <title>Rpt-tempa2223e67db837e00ba5efc2ebf961970nick.minnich@thinkahead.com</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

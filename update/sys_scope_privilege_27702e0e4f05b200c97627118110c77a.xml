@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>frank.kuligowski</sys_created_by>
         <sys_created_on>2017-02-21 15:54:32</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>27702e0e4f05b200c97627118110c77a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ProjectMaint</sys_name>

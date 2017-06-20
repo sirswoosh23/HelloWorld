@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="8e95a8b9dbf9f600a3c87566bf9619c2" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" table="pm_project" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>c3a5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">ea152eafdb117200e526f776bf96194d</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>create_project_formatter</element>
+            <position>1</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>47a5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Create Project From Template">df2d53d1c3222100b0449f2974d3ae4d</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>c7a5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>3</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>4ba5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>4</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>cba5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>primary_portfolio</element>
+            <position>5</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>4fa5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>cfa5a8f9dbf9f600a3c87566bf961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_manager</element>
+            <position>7</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>43a5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_63024_case_ctc_user</element>
+            <position>8</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>c3a5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>47a5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>percent_complete</element>
+            <position>10</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>c7a5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calculation_type</element>
+            <position>11</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>4ba5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>cba5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>4fa5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_63024_case_case</element>
+            <position>14</position>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:32</sys_created_on>
+            <sys_id>cfa5a8f9dbf9f600a3c87566bf961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="c01813fb6fb82100c5afed5dbb3ee479" view="0695a8b9dbf9f600a3c87566bf9619c2">8e95a8b9dbf9f600a3c87566bf9619c2</sys_ui_section>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>pm_project</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>cody.roberts@thinkahead.com</sys_created_by>
+            <sys_created_on>2017-03-29 19:06:12</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>c01813fb6fb82100c5afed5dbb3ee479</sys_domain>
+            <sys_domain_path>!!!/!!!/!!!/!!!/</sys_domain_path>
+            <sys_id>8e95a8b9dbf9f600a3c87566bf9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pm_project</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Case" source="x_63024_case">5bc81b214f74b600c97627118110c72d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case">5bc81b214f74b600c97627118110c72d</sys_scope>
+            <sys_update_name>sys_ui_section_8e95a8b9dbf9f600a3c87566bf9619c2</sys_update_name>
+            <sys_updated_by>cody.roberts@thinkahead.com</sys_updated_by>
+            <sys_updated_on>2017-03-29 19:06:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="">0695a8b9dbf9f600a3c87566bf9619c2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
